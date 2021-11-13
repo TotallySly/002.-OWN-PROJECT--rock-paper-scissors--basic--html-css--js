@@ -2,6 +2,20 @@
 
 /* font-family: 'Bonheur Royale', cursive; */
 
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  letter-spacing: 1px;
+}
+
 body {
   background-image: url("/assets/images/background-image.png");
   background-repeat: no-repeat;
