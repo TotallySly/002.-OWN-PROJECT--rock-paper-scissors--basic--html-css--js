@@ -196,7 +196,7 @@ Frameworks and Libraries
 
 ### Media
 
----
+## [Background Image - Clay Banks](https://unsplash.com/@claybanks)
 
 ### Acknowledgements
 
