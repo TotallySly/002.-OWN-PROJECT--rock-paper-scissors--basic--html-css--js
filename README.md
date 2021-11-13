@@ -1,5 +1,7 @@
 # Guess The Flag
 
+Guess The Flag! It is a fun game in which the player has two minutes to correctly guess as many of the world's flags as they possibly can. They can keep track of their score as they play, as well as how many they have incorrectly guessed.
+
 Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project-two/)
 
 ![Responsive Mockup]()
@@ -9,9 +11,8 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 ## Table of Contents
 
 - [UX and UI Design](#ux-and-ui-design)
-  - [Owner Goals](#owner-goals)
-  - [External User Goals](#external-user-goals)
-  - [User Stories](#user-stories)
+  - [Website Goals](#website-goals)
+  - [User Goals](#user-goals)
   - [Potential Features to Use](#potential-features-to-use)
   - [Wireframes](#wireframes)
 - [Design](#design)
@@ -37,21 +38,35 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 ## UX and UI Design
 
----
+- The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive. I wanted to quiz that was based on imagery rather than words. This ensures a keen minimalist design, which will be powerful to play on all devices.
 
-### Owner Goals
-
----
-
-### External User Goals
+- I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
 
 ---
 
-### User Stories
+---
+
+### Website Goals
+
+    - To provide a fun and interactive game for users using JavaScript
+    - To test and improve the knowledge of the users knowledge of world flags.
+    - Allow players to see their score increment with, both, correct and incorrect answers.
+    - To play against a timer.
 
 ---
+
+### User Goals
+
+    - To correctly guess as many counties' flags as they can within a time limit.
+    - To improve upon their knowledge of world flags.
+    - To have fun!
 
 ### Potential Features to Use
+
+    - Increment players scores.
+    - A timer feature.
+    - Store high scores (locally)
+    - Create a username (locally)
 
 ---
 
