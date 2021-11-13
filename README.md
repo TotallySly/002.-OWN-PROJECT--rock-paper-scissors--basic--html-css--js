@@ -73,21 +73,21 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](/assets/images/readme-wireframes-desktop.png)
+![Desktop Wireframe](assets/images/readme-wireframes-desktop.png)
 
 </details>
 
 <details>
 <summary>Tablet Wireframe</summary>
 
-![Desktop Wireframe](/assets/images/readme-wireframes-tablet.png)
+![Desktop Wireframe](assets/images/readme-wireframes-tablet.png)
 
 </details>
 
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Desktop Wireframe](/assets/images/readme-wireframes-mobile.png)
+![Desktop Wireframe](assets/images/readme-wireframes-mobile.png)
 
 </details>
 
@@ -107,9 +107,9 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 ### Colour Scheme
 
-![Colour Palette](/assets/images/readme-colourpalette.png)
+![Colour Palette](assets/images/readme-colourpalette.png)
 
-- I generated this colour palette by uploading the background image onto Coolor's colour palette generator. This is to ensure that the colour scheme remains consistent and aesthetically pleasing
+- I generated this colour palette by uploading the background image onto Coolor's colour palette generator. This is to ensure that the colour scheme remains consistent and aesthetically pleasing. It is cosy and comforting.
 
 ---
 
@@ -117,13 +117,28 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 I used Google Fonts to select my fonts.
 
+![Typography](assets/images/readme-fontstyle.png).
+
+- I chose this font as it I feel it matches the tone of the background image. The globe is old, in an old-fashioned library setting. I wanted a cursive style font to match this design pattern.
+
+- There was a lot of cursive style patterns, but I still wanted to maintain some form of minimist feel. The Bonheur Royale font best suited this aspect. As it is crisp and clear to read, despite being 'old-fashioned cursive'.
+
 ---
 
 ## Features
 
 ### Existing Features
 
-####
+#### Background Image
+
+<details>
+<summary>Background Image</summary>
+
+![Desktop Wireframe](assets/images/background-image.png)
+
+</details>
+
+- As soon as I saw this image, I knew it would be perfect for my quiz game. It has a beautiful and calming tone and colours. The magnifying glass peering over the old-fashioned style globe is a great image to represent guessing countries flags.
 
 ---
 
