@@ -1,6 +1,6 @@
 # Guess The Flag
 
-Link to the live [Guess The Flag]()
+Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project-two/)
 
 ![Responsive Mockup]()
 
@@ -184,7 +184,7 @@ Frameworks and Libraries
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 - The link:
-  - [Guess The Flag]()
+  - [Guess The Flag](https://totallysly.github.io/portfolio-project-two/)
 
 ---
 
