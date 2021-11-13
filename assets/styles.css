@@ -6,7 +6,7 @@
 /* rgb(62, 52, 50) (Black Coffee)  */
 /* rgb(218, 226,223) (Gainsboro)  */
 /* rgb(162, 167, 165) (Quick Silver) */
-/*rgb(109, 105, 106) (Dim Gray) */
+/* rgb(109, 105, 106) (Dim Gray) */
 /* rgb(255, 255, 255)(White) */
 
 html {
@@ -39,7 +39,21 @@ body {
   margin-left: 27vw;
 }
 
-.container {
+img {
   display: flex;
   margin-top: 7rem;
+  width: 45vw;
+}
+
+.container--btn {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  background-color: rgb(62, 52, 50, 0.3);
+  margin-top: 3rem;
+  padding: 0.5em;
 }
