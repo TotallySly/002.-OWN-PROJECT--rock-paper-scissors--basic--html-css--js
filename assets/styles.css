@@ -32,28 +32,48 @@ body {
 
 /* Text Shadow with Blur Effect taken from W3Schools */
 .title {
-  font-size: 10vw;
+  font-size: 13vw;
   color: rgb(62, 52, 50);
   text-shadow: 2px 2px 8px rgb(255, 255, 255);
-  margin-top: 7rem;
-  margin-left: 27vw;
+  margin-top: 4rem;
+  margin-left: 20vw;
 }
 
 img {
   display: flex;
-  margin-top: 7rem;
-  width: 45vw;
+  margin-top: 4rem;
+  width: 20rem;
 }
 
 .container--btn {
   display: flex;
-  flex-direction: column;
+  margin-top: 2rem;
 }
 
 button {
   color: rgb(255, 255, 255);
-  font-size: 1.4rem;
-  background-color: rgb(62, 52, 50, 0.3);
-  margin-top: 3rem;
+  font-size: 1.2rem;
+  background-color: rgb(62, 52, 50, 0.7);
+  margin-top: 2rem;
   padding: 0.5em;
+}
+
+.container--scores {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(62, 52, 50, 0.7);
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+.fa-check-circle {
+  padding-top: 0.5em;
+  color: rgb(0, 245, 41);
+}
+
+.fa-times-circle {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: rgb(250, 44, 3);
 }
