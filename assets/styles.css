@@ -42,7 +42,7 @@ main {
   font-size: 5rem;
   color: rgb(62, 52, 50);
   text-shadow: 2px 2px 8px rgb(255, 255, 255);
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 img {
@@ -121,4 +121,32 @@ button {
 
 a:visited {
   color: rgb(255, 255, 255);
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 7rem;
+  }
+
+  img {
+    width: 35rem;
+  }
+
+  .container {
+    width: 45rem;
+  }
+
+  .container--ft {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  button {
+    font-size: 2.8rem;
+  }
+
+  .container {
+    font-size: 3rem;
+  }
 }
