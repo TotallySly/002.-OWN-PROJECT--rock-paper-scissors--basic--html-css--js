@@ -47,22 +47,24 @@ img {
 
 .container--btn {
   display: flex;
+  flex-direction: column;
   margin-top: 2rem;
 }
 
 button {
   color: rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   background-color: rgb(62, 52, 50, 0.7);
   margin-top: 2rem;
   padding: 0.5em;
+  font-family: "Bonheur Royale", cursive;
 }
 
-.container--scores {
+.container {
   display: flex;
   flex-direction: column;
   background-color: rgb(62, 52, 50, 0.7);
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin-top: 4rem;
   color: rgb(255, 255, 255);
 }
