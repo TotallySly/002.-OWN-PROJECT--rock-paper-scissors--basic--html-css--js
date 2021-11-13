@@ -44,8 +44,6 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 ---
 
----
-
 ### Website Goals
 
     - To provide a fun and interactive game for users using JavaScript
@@ -99,9 +97,19 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 ### Imagery
 
+- Imagery was sourced from the stock image website, Unsplash. All flag images were sourced from Flagpedia. Both of which are linked below in the content section.
+
+- Images, if required, were compressed using TinyPNG in order to improve website accessibility.
+
+- I link sleek and minimal design. Which I have implemented into this website. Minimal text, and images fuel the process of this website.
+
 ---
 
 ### Colour Scheme
+
+![Colour Palette](/assets/images/readme-colourpalette.png)
+
+- I generated this colour palette by uploading the background image onto Coolor's colour palette generator. This is to ensure that the colour scheme remains consistent and aesthetically pleasing
 
 ---
 
@@ -173,6 +181,7 @@ Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 Frameworks and Libraries
 
@@ -184,7 +193,6 @@ Frameworks and Libraries
 - [GitHub](https://github.com/)
 - [Google Dev Tools](https://developer.chrome.com/docs/devtools/)
 - [Google Fonts](https://fonts.google.com/)
-- [Pexels](https://www.pexels.com/)
 - [Responsive PX](http://www.responsivepx.com/)
 - [Slack](https://slack.com/intl/en-se/)
 - [TinyPNG](https://tinypng.com/)
@@ -200,6 +208,12 @@ Frameworks and Libraries
 ---
 
 ### Manual Testing
+
+Responsive testing was conducted on a Windows Laptop, iPhone 7, iPhone 7 plus, and a Samsung Galaxy Tab A8. As these devices are limited to their screen sizes. I also tested the responsiveness using Google Dev Tools and [Responsive PX](http://www.responsivepx.com/).
+
+Testing was conducted on Google Chrome, Mozilla Firefox and Safari web browsers.
+
+After website completion, I submitted the website to Code Institute's Slack Community, specifically the 'Peer-Code-Review' channel.
 
 ---
 
@@ -228,11 +242,18 @@ Frameworks and Libraries
 
 ### Content
 
----
+- Icons where via the amazing website - [Font Awesome](https://fontawesome.com/)
+- The colour palette was from [Coolors](https://coolors.co/)
+- Additional Responsive Tool [Responsive PX](http://www.responsivepx.com/)
+- And of course, Google Dev Tools.
 
 ### Media
 
-## [Background Image - Clay Banks](https://unsplash.com/@claybanks)
+- My images were from one stock image website: [Unsplash](https://unsplash.com/).
+
+- All flag images were sourced from [Flagpedia](https://flagpedia.net/)
+
+[Background Image - Clay Banks](https://unsplash.com/@claybanks)
 
 ### Acknowledgements
 
