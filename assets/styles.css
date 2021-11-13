@@ -25,19 +25,24 @@ html {
 }
 
 body {
-  max-height: 100vh;
   background-image: url("../assets/images/background-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
 
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Text Shadow with Blur Effect taken from W3Schools */
 .title {
-  font-size: 13vw;
+  font-size: 5rem;
   color: rgb(62, 52, 50);
   text-shadow: 2px 2px 8px rgb(255, 255, 255);
   margin-top: 4rem;
-  margin-left: 20vw;
 }
 
 img {
@@ -76,18 +81,14 @@ button {
   color: rgb(250, 44, 3);
 }
 
-.footer {
-  font-size: 1.2rem;
-}
-
 .container--ft {
   display: flex;
   background-color: rgb(62, 52, 50, 0.7);
   font-size: 1rem;
-  margin-top: 4rem;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   color: rgb(255, 255, 255);
+  margin-top: 40px;
 }
 
 .name {
