@@ -72,6 +72,27 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 
 ### Wireframes
 
+<details>
+<summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](/assets/images/readme-wireframes-desktop.png)
+
+</details>
+
+<details>
+<summary>Tablet Wireframe</summary>
+
+![Desktop Wireframe](/assets/images/readme-wireframes-tablet.png)
+
+</details>
+
+<details>
+<summary>Mobile Wireframe</summary>
+
+![Desktop Wireframe](/assets/images/readme-wireframes-mobile.png)
+
+</details>
+
 ---
 
 ## Design
