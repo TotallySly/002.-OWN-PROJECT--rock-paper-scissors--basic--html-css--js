@@ -255,6 +255,8 @@ After website completion, I submitted the website to Code Institute's Slack Comm
 
 ## Credits
 
+- The blur effect on the logo, 'Guess The Flag' taken from [W3Schools](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+
 ### Content
 
 - Icons where via the amazing website - [Font Awesome](https://fontawesome.com/)

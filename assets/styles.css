@@ -2,14 +2,21 @@
 
 /* font-family: 'Bonheur Royale', cursive; */
 
+/* rgb(62, 52, 50) (Black Coffee)  */
+/* rgb(218, 226,223) (Gainsboro)  */
+/* rgb(162, 167, 165) (Quick Silver) */
+/*rgb(109, 105, 106) (Dim Gray) */
+/* rgb(255, 255, 255)(White) */
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  font-family: "Bonheur Royale", cursive;
 }
 
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   border: none;
@@ -20,4 +27,14 @@ body {
   background-image: url("/assets/images/background-image.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Text Shadow with Blur Effect taken from W3Schools */
+
+.title {
+  font-size: 7vw;
+  color: rgb(62, 52, 50);
+  text-shadow: 2px 2px 8px rgb(255, 255, 255);
+  margin-top: 7rem;
+  margin-left: 33vw;
 }
