@@ -41,32 +41,27 @@ body {
 
 img {
   display: flex;
-  margin-top: 4rem;
+  margin-top: 1rem;
   width: 20rem;
-}
-
-.container--btn {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-
-button {
-  color: rgb(255, 255, 255);
-  font-size: 1.9rem;
-  background-color: rgb(62, 52, 50, 0.7);
-  margin-top: 2rem;
-  padding: 0.5em;
-  font-family: "Bonheur Royale", cursive;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   background-color: rgb(62, 52, 50, 0.7);
-  font-size: 1.9rem;
+  font-size: 2rem;
   margin-top: 4rem;
   color: rgb(255, 255, 255);
+  width: 30rem;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-family: "Bonheur Royale", cursive;
+  font-size: 1.8rem;
+  background-color: rgb(62, 52, 50, 0.7);
+  margin-top: 2rem;
+  padding: 0.5em;
 }
 
 .fa-check-circle {
@@ -78,4 +73,50 @@ button {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   color: rgb(250, 44, 3);
+}
+
+.footer {
+  font-size: 1.2rem;
+}
+
+.container--ft {
+  display: flex;
+  background-color: rgb(62, 52, 50, 0.7);
+  font-size: 1rem;
+  margin-top: 4rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: rgb(255, 255, 255);
+}
+
+.name {
+  padding-top: 0.2em;
+}
+
+.fa-facebook {
+  font-size: 1.4rem;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.fa-github {
+  font-size: 1.4rem;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.fa-twitter-square {
+  font-size: 1.4rem;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+
+.fa-instagram-square {
+  font-size: 1.4rem;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
 }
