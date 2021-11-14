@@ -1,6 +1,6 @@
 # Pub Quiz
 
-Who doesn't love a pub quiz?!
+Who doesn't love a pub quiz?! This is a pub quiz in which the user can pick one of four different subjects to test out their knowledge!
 
 Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 
@@ -49,16 +49,15 @@ Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 ### Website Goals
 
     - To provide a fun and interactive game for users using JavaScript
-    - To test and improve the knowledge of the users knowledge of world flags.
+    - To test and improve the knowledge of the users knowledge of different knowledge.
     - Allow players to see their score increment with, both, correct and incorrect answers.
-    - To play against a timer.
 
 ---
 
 ### User Goals
 
-    - To correctly guess as many counties' flags as they can within a time limit.
-    - To improve upon their knowledge of world flags.
+    - To correctly play an interactive quiz!
+    - To improve upon their general knowledge
     - To have fun!
 
 ### Potential Features to Use
@@ -75,21 +74,21 @@ Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](assets/images/readme-wireframes-desktop.png)
+![Desktop Wireframe]()
 
 </details>
 
 <details>
 <summary>Tablet Wireframe</summary>
 
-![Desktop Wireframe](assets/images/readme-wireframes-tablet.png)
+![Desktop Wireframe]()
 
 </details>
 
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Desktop Wireframe](assets/images/readme-wireframes-mobile.png)
+![Desktop Wireframe]()
 
 </details>
 
@@ -109,9 +108,7 @@ Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 ### Colour Scheme
 
-![Colour Palette](assets/images/readme-colourpalette.png)
-
-- I generated this colour palette by uploading the background image onto Coolor's colour palette generator. This is to ensure that the colour scheme remains consistent and aesthetically pleasing. It is cosy and comforting.
+![Colour Palette]()
 
 ---
 
@@ -119,11 +116,7 @@ Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 I used Google Fonts to select my fonts.
 
-![Typography](assets/images/readme-fontstyle.png).
-
-- I chose this font as it I feel it matches the tone of the background image. The globe is old, in an old-fashioned library setting. I wanted a cursive style font to match this design pattern.
-
-- There was a lot of cursive style patterns, but I still wanted to maintain some form of minimist feel. The Bonheur Royale font best suited this aspect. As it is crisp and clear to read, despite being 'old-fashioned cursive'.
+![Typography]().
 
 ---
 
@@ -136,11 +129,9 @@ I used Google Fonts to select my fonts.
 <details>
 <summary>Background Image</summary>
 
-![Desktop Wireframe](assets/images/background-image.png)
+![Desktop Wireframe]()
 
 </details>
-
-- As soon as I saw this image, I knew it would be perfect for my quiz game. It has a beautiful and calming tone and colours. The magnifying glass peering over the old-fashioned style globe is a great image to represent guessing countries flags.
 
 ---
 
@@ -251,13 +242,13 @@ After website completion, I submitted the website to Code Institute's Slack Comm
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 - The link:
-  - [Guess The Flag](https://totallysly.github.io/portfolio-project-two/)
+  - [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 ---
 
 ## Credits
 
-- The blur effect on the logo, 'Guess The Flag' taken from [W3Schools](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)
+- The initial layout of code was taken from Code Institute. This has been accredited within the code as well. [Layout From Code Institute's Love Maths Calculator]()
 
 ### Content
 
@@ -268,11 +259,11 @@ After website completion, I submitted the website to Code Institute's Slack Comm
 
 ### Media
 
-- My images were from one stock image website: [Unsplash](https://unsplash.com/).
+- []().
 
-- All flag images were sourced from [Flagpedia](https://flagpedia.net/)
+-[]()
 
-[Background Image - Clay Banks](https://unsplash.com/@claybanks)
+[]()
 
 ### Acknowledgements
 
