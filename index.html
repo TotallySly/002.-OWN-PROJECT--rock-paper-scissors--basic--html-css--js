@@ -7,83 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="https://kit.fontawesome.com/b814bfa1bc.js" crossorigin="anonymous"></script>
-    <title>Guess The Flag</title>
+    <title>Pub Quiz</title>
 </head>
 
 <body>
+    <h1 class="logo"><i class="fas fa-beer"> Pub Quiz!</i></h1>
 
-    <!-- Title & Logo -->
-    <div>
-        <h1 class="title">Guess The Flag</h1>
+    <div class="game-area">
+
     </div>
 
-    <div>
-        <div class="container">
-            <!--Flag Image  -->
-            <div>
-                <img src="assets/images/flag-images/ad.png" alt="flag">
-            </div>
-
-            <!-- Answers -->
-            <div class="container--btn">
-                <button>Sweden</button>
-                <button>Andorra</button>
-                <button>Spain</button>
-            </div>
-
-
-
-
-            <!-- Correct and Incorrect Score -->
-            <div>
-                <p>
-                    <i class="fas fa-check-circle"></i>
-                    <span>Correct Answers: </span>
-                    <span id="score">0</span>
-                </p>
-                <p>
-                    <i class="fas fa-times-circle"></i>
-                    <span>Incorrect Answers: </span> <span id="incorrect">0</span>
-                </p>
-            </div>
-        </div>
-
-
-        <!-- The Rules -->
-        <div class="container">
-            <p>The Rules</p>
-            <p>Just get as many right as possible!</p>
-            <p>Click on the Flag to begin!</p>
-        </div>
-
-
-        <!-- Footer -->
-        <footer>
-            <div class="container--ft">
-                <span class="name">Scott Lyon 2021</span>
-                <div>
-                    <span>
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    </span>
-                    <span>
-                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                    </span>
-                    <span>
-                        <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                    </span>
-                    <span>
-                        <a href="https://www.instagram.com/explore/" target="_blank"><i
-                                class="fab fa-instagram-square"></i></a>
-                    </span>
-                </div>
-            </div>
-        </footer>
+    <div class="score-area">
+        <p class="scores">Correct Answers <span id="score">0</span></p>
+        <p class="scores">Incorrect Answers <span id="incorrec">0</span></p>
+    </div>
 
 
 
 
 
-        <script src="assets/script/script.js"></script>
+
+
+    <script src="assets/script/script.js"></script>
 </body>
 
 </html>
