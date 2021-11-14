@@ -1,8 +1,8 @@
-# Guess The Flag
+# Pub Quiz
 
-Guess The Flag! It is a fun game in which the player has two minutes to correctly guess as many of the world's flags as they possibly can. They can keep track of their score as they play, as well as how many they have incorrectly guessed.
+Who doesn't love a pub quiz?!
 
-Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project-two/)
+Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 ![Responsive Mockup]()
 
@@ -41,6 +41,8 @@ Link to the live [Guess The Flag](https://totallysly.github.io/portfolio-project
 - The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive. I wanted to quiz that was based on imagery rather than words. This ensures a keen minimalist design, which will be powerful to play on all devices.
 
 - I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
+
+- I enjoyed the Love Maths project with the Code Institute, so I adopted and adapted their quiz layout.
 
 ---
 
