@@ -1,0 +1,4 @@
+/* This was taken from Code Institute's Love Maths Walkthrough */
+.btn::after {
+  content: attr(data-type);
+}
