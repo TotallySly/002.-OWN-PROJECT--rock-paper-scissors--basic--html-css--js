@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   let sport = document.getElementById("sport");
-  this.addEventListener("click", () =>
+  sport.addEventListener("click", () =>
     generateRandomSportsQuestion(sportQuestions)
   );
 
