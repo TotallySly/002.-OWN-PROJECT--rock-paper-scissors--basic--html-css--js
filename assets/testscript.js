@@ -1,4 +1,3 @@
 // Document to test out script structure
 
-let userMouseClick = 
-
+let userMouseClick = document.getElementById("startQuiz");
