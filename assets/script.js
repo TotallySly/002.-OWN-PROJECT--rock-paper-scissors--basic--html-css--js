@@ -313,20 +313,20 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   let film = document.getElementById("film");
-  music.addEventListener("click", () =>
+  film.addEventListener("click", () =>
     generateRandomFilmQuestion(filmQuestions)
   );
 
   function generateRandomFilmQuestion() {
-    let randomFilmQuestion = Math.floor(Math.random() * musicQuestions.length);
-    let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
-    question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
-    answerA.innerHTML = showRandomMusicQuestion.a;
-    answerB.innerHTML = showRandomMusicQuestion.b;
-    answerC.innerHTML = showRandomMusicQuestion.c;
-    answerD.innerHTML = showRandomMusicQuestion.d;
+    let randomFilmQuestion = Math.floor(Math.random() * filmQuestions.length);
+    let showRandomFilmQuestion = filmQuestions[randomFilmQuestion];
+    question.innerHTML = "<p>" + showRandomFilmQuestion.question + "</p>";
+    answerA.innerHTML = showRandomFilmQuestion.a;
+    answerB.innerHTML = showRandomFilmQuestion.b;
+    answerC.innerHTML = showRandomFilmQuestion.c;
+    answerD.innerHTML = showRandomFilmQuestion.d;
 
-    console.log(musicQuestions[randomMusicQuestion]);
+    console.log(filmQuestions[randomFilmQuestion]);
   }
 
   const randomQuestions = [
@@ -411,4 +411,23 @@ document.addEventListener("DOMContentLoaded", function () {
       correctAnswer: "c",
     },
   ];
+
+  let random = document.getElementById("random");
+  random.addEventListener("click", () =>
+    generateRandomRandomQuestion(randomQuestions)
+  );
+
+  function generateRandomRandomQuestion() {
+    let randomRandomQuestion = Math.floor(
+      Math.random() * randomQuestions.length
+    );
+    let showRandomRandomQuestion = randomQuestions[randomRandomQuestion];
+    question.innerHTML = "<p>" + showRandomRandomQuestion.question + "</p>";
+    answerA.innerHTML = showRandomRandomQuestion.a;
+    answerB.innerHTML = showRandomRandomQuestion.b;
+    answerC.innerHTML = showRandomRandomQuestion.c;
+    answerD.innerHTML = showRandomRandomQuestion.d;
+
+    console.log(randomQuestions[randomRandomQuestion]);
+  }
 });
