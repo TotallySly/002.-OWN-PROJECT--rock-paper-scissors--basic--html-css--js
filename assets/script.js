@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const question = document.getElementById("question");
+  const qImg = document.getElementById("qimg");
   const choiceA = document.getElementById("answerA");
   const choiceB = document.getElementById("answerB");
   const choiceC = document.getElementById("answerC");
@@ -98,10 +99,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let sport = document.getElementById("sport");
   sport.addEventListener("click", () =>
-    generateRandomSportsQuestion(sportQuestions)
+    generateRandomSportQuestion(sportQuestions)
   );
 
-  function generateRandomSportsQuestion() {
+  function generateRandomSportQuestion() {
     let randomSportQuestion = Math.floor(Math.random() * sportQuestions.length);
     let showRandomSportQuestion = sportQuestions[randomSportQuestion];
     question.innerHTML = "<p>" + showRandomSportQuestion.question + "</p>";
