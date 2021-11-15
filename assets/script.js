@@ -5,8 +5,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const choiceC = document.getElementById("answerC");
   const answer = document.getElementById("submitAnswer");
 
-  // const lastSportsQuestion = sportQuestions.length - 1;
-  // let runningSportsQuestion = 0;
+  /****************************************************************
+   * **************************************************************
+   */
+  // This is generating random Sports Questions. However, at present it is only random, so random questions are reappearing. Need to come up with code to eliminate duplicate questions being produced.
+
   const sportQuestions = [
     {
       question:
@@ -110,6 +113,13 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log(sportQuestions[randomSportQuestion]);
   }
 
+  // This is generating random Sports Questions. However, at present it is only random, so random questions are reappearing. Need to come up with code to eliminate duplicate questions being produced.
+
+  // Just need to replace sport with other quiz names!
+  /****************************************************************
+   * **************************************************************
+   */
+
   const musicQuestions = [
     {
       question:
@@ -199,6 +209,23 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
+  let music = document.getElementById("music");
+  music.addEventListener("click", () =>
+    generateRandomMusicQuestion(musicQuestions)
+  );
+
+  function generateRandomMusicQuestion() {
+    let randomMusicQuestion = Math.floor(Math.random() * musicQuestions.length);
+    let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
+    question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
+    answerA.innerHTML = showRandomMusicQuestion.a;
+    answerB.innerHTML = showRandomMusicQuestion.b;
+    answerC.innerHTML = showRandomMusicQuestion.c;
+    answerD.innerHTML = showRandomMusicQuestion.d;
+
+    console.log(musicQuestions[randomMusicQuestion]);
+  }
+
   const filmQuestions = [
     {
       question:
@@ -284,6 +311,23 @@ document.addEventListener("DOMContentLoaded", function () {
       correctAnswer: "a",
     },
   ];
+
+  let film = document.getElementById("film");
+  music.addEventListener("click", () =>
+    generateRandomFilmQuestion(filmQuestions)
+  );
+
+  function generateRandomFilmQuestion() {
+    let randomFilmQuestion = Math.floor(Math.random() * musicQuestions.length);
+    let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
+    question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
+    answerA.innerHTML = showRandomMusicQuestion.a;
+    answerB.innerHTML = showRandomMusicQuestion.b;
+    answerC.innerHTML = showRandomMusicQuestion.c;
+    answerD.innerHTML = showRandomMusicQuestion.d;
+
+    console.log(musicQuestions[randomMusicQuestion]);
+  }
 
   const randomQuestions = [
     {
