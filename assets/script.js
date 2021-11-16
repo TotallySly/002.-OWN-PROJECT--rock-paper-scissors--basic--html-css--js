@@ -4,16 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentQuestion = 0;
   const score = 0;
 
-  // Retrieving the elements from the HTML so we can access them within the DOM
+  // const question = document.getElementById("question");
+  // const question2 = document.getElementById("question2");
+  // const option1 = document.getElementById("answer1");
+  // const option2 = document.getElementById("answer2");
+  // const option3 = document.getElementById("answer3");
+  // const option4 = document.getElementById("answer4");
+  // const nxtButton = document.getElementById("nextQuestion");
+  // const result = document.getElementById("score");
 
-  const question = document.getElementById("question");
-  const optionA = document.getElementById("answerA");
-  const optionB = document.getElementById("answerB");
-  const optionC = document.getElementById("answerC");
-  const optionD = document.getElementById("answerD");
-  const nxtButton = document.getElementById("nextQuestion");
-  const result = document.getElementById("score");
-
+  let music = document.getElementById("music");
+  let output = document.getElementById("question");
   const musicQuestions = [
     {
       question:
@@ -103,18 +104,49 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
 
-  let music = document.getElementById("music");
-  music.addEventListener("click", () =>
-    generateRandomMusicQuestion(musicQuestions)
-  );
-
-  function generateRandomMusicQuestion() {
-    let randomMusicQuestion = Math.floor(Math.random() * musicQuestions.length);
-    let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
-    question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
-    optionA.innerHTML = showRandomMusicQuestion.a;
-    optionB.innerHTML = showRandomMusicQuestion.b;
-    optionC.innerHTML = showRandomMusicQuestion.c;
-    optionD.innerHTML = showRandomMusicQuestion.d;
+  function generateRandomNumber(min, max) {
+    let step1 = max - min + 1;
+    let step2 = Math.random() * step1;
+    let result = Math.floor(step2) + min;
+    return result;
   }
+
+  function createArrayOfNumbers(start, end) {
+    let myArray = [];
+
+    for (let i = start; i <= end; i++) {
+      myArray.push(i);
+    }
+
+    return myArray;
+  }
+
+  let numbersArray = createArrayOfQuestions(1, 9);
+
+  console.log(numbersArray);
+
+  // music.addEventListener("click", () => {
+  //   if (randomMusicQuestions.length == 0) {
+  //     output.innerText = "No more questions";
+  //   }
+  //   let randomIndex = generateRandomNumber(0, randomMusicQuestions.length - 1);
+  //   let randomQuestion = musicQuestions[randomIndex];
+  //   randomMusicQuestions.splice(randomIndex, 1);
+  //   output.innerText = randomQuestion;
+  // });
+
+  // function generateRandomMusicQuestion() {
+  //   let randomMusicQuestion = Math.floor(Math.random() * musicQuestions.length);
+  //   let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
+  //   question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
+  //   option1.innerHTML = showRandomMusicQuestion.a;
+  //   option2.innerHTML = showRandomMusicQuestion.b;
+  //   option3.innerHTML = showRandomMusicQuestion.c;
+  //   option4.innerHTML = showRandomMusicQuestion.d;
+  // question2.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
+  // option5.innerHTML = showRandomMusicQuestion.a;
+  // option6.innerHTML = showRandomMusicQuestion.b;
+  // option7.innerHTML = showRandomMusicQuestion.c;
+  // option8.innerHTML = showRandomMusicQuestion.d;
+  // }
 });
