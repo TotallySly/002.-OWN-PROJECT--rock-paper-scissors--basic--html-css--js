@@ -9,4 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const option2 = document.getElementById("option2");
   const option3 = document.getElementById("option3");
   const option4 = document.getElementById("option4");
+  const nxtButton = document.getElementById("nextQuestion");
+  const result = document.getElementById("score");
 });
