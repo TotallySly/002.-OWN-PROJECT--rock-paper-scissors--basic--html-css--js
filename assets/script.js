@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const choiceA = document.getElementById("answerA");
+  const choiceB = document.getElementById("answerB");
+  const choiceC = document.getElementById("answerC");
+  const answer = document.getElementById("submitAnswer");
+
   const musicQuestions = [
     {
       question:
@@ -88,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   ];
   const music = document.getElementById("music");
-  music.addEventListener("click", () => getRandomMusicQuestions(6));
+  music.addEventListener("click", () => getRandomMusicQuestions());
   music.addEventListener("click", () => loadQuestions());
 
   function getRandomMusicQuestions(number) {
@@ -102,14 +107,15 @@ document.addEventListener("DOMContentLoaded", function () {
     return musicQuestions.filter(function (d, i) {
       return musicSet.indexOf(i) > -1;
     });
-    function loadQuestions() {
-      let questionSet = getRandomMusicQuestions(4);
-      question.innerHTML = "<p>" + questionSet.question + "</p>";
-      answerA.innerHTML = questionSet.a;
-      answerB.innerHTML = questionSet.b;
-      answerC.innerHTML = questionSet.c;
-      answerD.innerHTML = questionSet.d;
-    }
-    loadQuestions();
   }
+  function loadQuestions(musicSet) {
+    for (let i = 0; i < 6; i++) musicSet[i];
+    question.innerHTML = "<p>" + musicSet.question + "</p>";
+    answerA.innerHTML = showRandomMusicQuestion.a;
+    answerB.innerHTML = showRandomMusicQuestion.b;
+    answerC.innerHTML = showRandomMusicQuestion.c;
+    answerD.innerHTML = showRandomMusicQuestion.d;
+  }
+
+  loadQuestions();
 });
