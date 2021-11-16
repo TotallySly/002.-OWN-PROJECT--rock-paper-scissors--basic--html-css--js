@@ -15,31 +15,19 @@
         <i class="fas fa-beer"> Pub Quiz!</i>
     </h1>
 
-    <section class="quiz-section">
-        <button id="startQuiz" data-type="StartQuiz">Start Quiz</button>
-        <div class="subject-section">
-            <button id="sport" data-type="Sport" class="btn"><i class="fas fa-futbol"></i></button>
-            <button id="music" data-type="Music" class="btn"><i class="fas fa-music"></i></button>
-            <button id="film" data-type="Film" class="btn"><i class="fas fa-film"></i></button>
-            <button id="random" data-type="Random" class="btn"><i class="fas fa-question"></i></button>
-        </div>
-
-
-        <section class="question-section">
-            <span id="question">Question:</span>
-            <div>
-                <button id="answerA">A</button>
-                <button id="answerB">B</button>
-                <button id="answerC">C</button>
-                <button id="answerD">D</button>
-            </div>
-
-        </section>
+    <section class="quizContainer">
+        <div id="question">Question:</div>
+        <input id="option1" type="radio" name="option" value="1">
+        <input type="radio" name="option" value="2">
+        <input type="radio" name="option" value="3">
+        <input type="radio" name="option" value="4">
+        <button>Next Question</button>
     </section>
 
-    <section class="score-section">
-        <p class="scores">Correct Answers <span id="score">0</span></p>
-        <p class="scores">Incorrect Answers <span id="incorrect">0</span></p>
+
+
+    <section id="score">
+
     </section>
 
 
