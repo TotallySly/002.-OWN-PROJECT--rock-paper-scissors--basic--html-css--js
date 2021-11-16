@@ -1,9 +1,9 @@
 // A file for all my questions.
 
-const quizQuestions = [
+const musicQuestions = [
   {
     question:
-      "For which movie did Steven Spielberg win his first Oscar for Best Director?",§
+      "For which movie did Steven Spielberg win his first Oscar for Best Director?",
     a: "E.T.",
     b: "Schindler's List",
     c: "Jaws",
