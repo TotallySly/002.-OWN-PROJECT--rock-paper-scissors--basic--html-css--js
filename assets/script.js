@@ -26,4 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     option3.textContent = quest.c;
     option4.textContent = quest.d;
   }
+
+  button.addEventListener("click", () => displayNextQuestion());
+
+  function displayNextQuestion() {}
 });
