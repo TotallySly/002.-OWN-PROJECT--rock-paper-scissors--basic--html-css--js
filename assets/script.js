@@ -101,7 +101,27 @@ document.addEventListener("DOMContentLoaded", function () {
     resultsContainer,
     submitButton
   ) {
-    function showQuestions(questions, quizContainer) {}
+    function showQuestions(questions, quizContainer) {
+      let output = [];
+      const answer;
+
+      for(let i = 0; i < questions.length; i++){
+        answers = [];
+        for(letter in questions[i].answers){
+          answers.push(
+            '<label>'
+            + '<input type="radio" name="question'+i+'"value="'+letter+'">'
+            + letter + ': '
+            + questions[i].answers{letter}
+            + '</label>'
+          ) ;      
+      }
+      output.push{
+        '<div>' + questions[i].question + '</div>'
+        + '<div>' + answers.join("") + '</div>'
+);
+      }
+    }
     function showResults(questions, quizContainer, resultsContainer) {}
 
     showQuestions(questions, quizContainer);
