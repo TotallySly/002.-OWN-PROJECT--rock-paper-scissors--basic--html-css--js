@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	// renderQuestion()
 
-	let = document.getElementById("flag");
-		something.addEventListener("click", () =>
+	let  flag = document.getElementById("flag");
+		flag.addEventListener("click", () =>
 		generateRandomQuestion(questions)
 );	
 
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		let randomQuestion = Math.floor(Math.random() * questions.length);
 		let showRandomQuestion =  questions[randomQuestion];
 			question.innerHTML = "<p>" + showRandomQuestion.question + "</p>";
-			flagImage.innerHTML = "<img src=" + q.imgSrc + ">";
+			flagImage.innerHTML = "<img src=" +  showRandomQuestion.imgSrc + ">";
 			choiceA.innerHTML = showRandomQuestion.choiceA;
 			choiceB.innerHTML = showRandomQuestion.choiceB;
 			choiceC.innerHTML = showRandomQuestion.choiceC;
