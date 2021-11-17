@@ -105,7 +105,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
 	];
 
-	const quizContainer = document.getElementById("quiz");
+	const startQuiz = document.getElementById("start")
+	const questions= document.getElementById("questions");
 	const resultsContainer = document.getElementById("results");
 	const submitButton = document.getElementById("submit");
 
