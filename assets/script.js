@@ -31,7 +31,27 @@ document.addEventListener("DOMContentLoaded", function () {
 			// combine the output into one string of HTML to manipulate the DOM
 			quiz.innerHTML = output.join(' ');
 		}
-		function showResults() {}
+		function showResults() {
+			// Gather answer containers from the quiz
+			const answerContainers = quiz.querySelectorAll('.answers');
+
+			// tracking user score
+			let numCorrect = 0;
+
+			myQuestions.forEach ( (currentQuestion, questionNumber) =>{
+				const answerContainer = answer.Containers[questionNumber];
+				const selector = `input[name=question${questionNumber}]:checked`;
+				const userAnswer = (answerContainer.querySelector(selector) || {} ).value;
+
+				if(userAnswer === currentQuestion.correctAnswer) {
+					numCorrect++;
+
+					answerContainers[questionNumber].style.color = 'lightgreen';
+				} else {
+					answerContainer[questionNumber].style.color = "red";
+				}
+			})
+		}
 
   // Variables for the Quiz
 		const quizContainer = (document.getElementById = "quiz");
