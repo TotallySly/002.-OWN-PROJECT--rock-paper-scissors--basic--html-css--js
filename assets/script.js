@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function () {
 					);
 				}
 			);
+
+			// combine the output into one string of HTML to manipulate the DOM
+			quizContainer.innerHTML = output.join(' ');
 		}
 		function showResults() {}
 
