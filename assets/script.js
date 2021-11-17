@@ -6,8 +6,32 @@ document.addEventListener("DOMContentLoaded", function () {
 	const choiceA = document.getElementById("B");
 	const choiceA = document.getElementById("C");
 	
-
-	
+	let questions = [
+		{
+			question: "Whose flag is this?",
+			imgSrc: "/assets/images/br.png",
+			choiceA: "France",
+			choiceB: "Brazil",
+			choiceC: "England",
+			correct: "b",
+		},
+		{
+			question: "Whose flag is this?",
+			imgSrc: "/assets/images/fr.png",
+			choiceA: "France",
+			choiceB: "Brazil",
+			choiceC: "England",
+			correct: "a",
+		},
+		{
+			question: "Whose flag is this?",
+			imgSrc: "/assets/images/gb-eng.png",
+			choiceA: "France",
+			choiceB: "Brazil",
+			choiceC: "England",
+			correct: "c",
+		}
+	]
 
 
 
