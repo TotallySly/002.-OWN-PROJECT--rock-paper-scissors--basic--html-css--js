@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					for(letter in currentQuestion.answers) {
 						answers.push (
 							`<label>
-								<input type="radio" name="question${questionNumber}" value=${letter}
+								<input type="radio" name="question${questionNumber}" value="${letter}"
 								${letter} :
 								${currentQuestion.answers[letter]}
 							</label>`
@@ -23,13 +23,13 @@ document.addEventListener("DOMContentLoaded", function () {
 					// adding question and its answers to the output
 					output.push (
 						`<div class="question"> ${currentQuestion.question}</div>
-						<div class="answers> ${answers.join(' ')} </div>`
+						<div class="answers"> ${answers.join(' ')} </div>`
 					);
 				}
 			);
 
 			// combine the output into one string of HTML to manipulate the DOM
-			quizContainer.innerHTML = output.join(' ');
+			quiz.innerHTML = output.join(' ');
 		}
 		function showResults() {}
 
@@ -144,5 +144,5 @@ document.addEventListener("DOMContentLoaded", function () {
 		buildQuiz();
 
   //   On submit, show the results
-		submitButton.addEventListener("click", showResults);
+		submit.addEventListener("click", showResults);
 });
