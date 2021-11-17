@@ -50,7 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				} else {
 					answerContainer[questionNumber].style.color = "red";
 				}
-			})
+			});
+			results.innerHTML = `${numCorrect} out of ${myQuestions.length};`
 		}
 
   // Variables for the Quiz
