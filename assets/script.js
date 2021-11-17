@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-const quizQuestions = [
+	const myQuestions = [
     {
     question:
         "For which movie did Steven Spielberg win his first Oscar for Best Director?", 
@@ -103,59 +103,62 @@ const quizQuestions = [
     },
     correctAnswer: "a",
     },
-];
+	];
 
-const quizContainer = document.getElementById("quiz");
-const results = document.getElementById("results");
-const submitButton = document.getElementById("submit");
+	const quizContainer = document.getElementById("quiz");
+	const resultsContainer = document.getElementById("results");
+	const submitButton = document.getElementById("submit");
 
-generateQuiz(quizQuestions, quizContainer, resultsContainer, submitButton)
+	generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton)
 
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
-	function showQuestions(questions, quizContainer) {
-		let output = [];
-		const answers;
+	function generateQuiz(questions, quizContainer, resultsContainer, submitButton) {
+		function showQuestions(questions, quizContainer) {
+			let output = [];
+			const answers;
 		
-		for(let i = 0; i < questions.length; i++){
-			answers = [];
-			for(letter in questions[i].answers){
-				answers.push(
+			for(let i = 0; i < questions.length; i++){
+				answers = [ ];
+				for(letter in questions[i].answers){
+					answers.push(
 						'<label>'+
 							'<input type="radio" name="question'+i+'"value="'
 							+letter+'">'+ letter + ': '
 							+ questions[i].answers[letter]+ 
 						'</label>'
-				) ; 
-			}   
-			output.push(
-				'<div>' + questions[i].question + '</div>'
-				+ '<div>' + answers.join("") + '</div>'
-			);  
+					) ; 
+				}   
+				output.push(
+					'<div>' + questions[i].question + '</div>'
+					+ '<div>' + answers.join("") + '</div>'
+				);  
+			}
+			quizContainer.innerHTML = output.join("");
 		}
-		quiz.QuestionsContainer.innerHTML = output.join("");
+
+		function showResults(questions, quizContainer, resultsContainer){
+			let answerContainers = quizContainer.querySelectorAll(".answers");
+
+			let userAnswer = " "; 
+			let numCorrect = 0;
+
+			for(let i=0; i<questions.length; i++) {
+				userAnswer = (answerContainers[i].querySelector('input[name=questions'+i+"]:checked") ||{}).value;
+
+				if(userAnswer===questions[i].correctAnswer) {
+					numCorrect++;
+					answerContainers[i].style.color = "lightgreen";
+				}
+				else {
+					answerContainers[i].style.color="red"
+				}
+			}
+			resultsContainer.innerHTML = numCorrect + "out of" + questions.length;
+		}
+	
+		showQuestions(questions, quizContainer);
+
+		submitButton.onclick = function () {
+			showResults(questions, quizContainer, resultsContainer);
+		}
 	}
-
-	function showResults(questionsm quizContainer, )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	function showResults(questions, quizContainer, resultsContainer) {}
-
-    showQuestions(questions, quizContainer);
-
-    submitButton.onclick = function () {
-      showResults(questions, quizContainer, resultsContainer);
-    };
-  }
 });
