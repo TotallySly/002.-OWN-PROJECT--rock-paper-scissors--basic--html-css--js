@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 					// and for each available answer...
 					for(letter in currentQuestion.answers) {
-						answers.push(
+						answers.push (
 							`<label>
 								<input type="radio" name="question${questionNumber}" value=${letter}
 								${letter} :
@@ -19,8 +19,14 @@ document.addEventListener("DOMContentLoaded", function () {
 							</label>`
 						);
 					}
+					
+					// adding question and its answers to the output
+					output.push (
+						`<div class="question"> ${currentQuestion.question}</div>
+						<div class="answers> ${answers.join(' ')} </div>`
+					);
 				}
-			)
+			);
 		}
 		function showResults() {}
 
