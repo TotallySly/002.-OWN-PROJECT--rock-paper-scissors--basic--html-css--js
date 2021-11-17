@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	const question = document.getElementById("question");
 	const flagImage = document.getElementById("flagImage");
 	const choiceA = document.getElementById("A");
-	const choiceA = document.getElementById("B");
-	const choiceA = document.getElementById("C");
+	const choiceB = document.getElementById("B");
+	const choiceC = document.getElementById("C");
 	
 	let questions = [
 		{
@@ -33,24 +33,36 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	]
 
+	const lastQuestion = questions.length - 1;
+	let runningQuestion = 0;
+
+	// function renderQuestion () {
+	// 	let q =questions[runningQuestion];
+	// 	question.innerHTML = "<p>" + q.question + "</p>" ;
+	// 	qImg.innerHTML = "<img src=" + q.imgSrc + ">";
+	// 	choiceA.innerHTML = q.choiceA;
+	// 	choiceB.innerHTML = q.choiceB;
+	// 	choiceC.innerHTML = q.choiceC;
+	// }
+
+	// renderQuestion()
+
+	let = document.getElementById("flag");
+		something.addEventListener("click", () =>
+		generateRandomQuestion(questions)
+);	
 
 
-	let music = document.getElementById("music");
-		music.addEventListener("click", () =>
-		generateRandomMusicQuestion(musicQuestions)
-		);
-
-	function generateRandomMusicQuestion() {
-		let randomMusicQuestion = Math.floor(Math.random() * musicQuestions.length);
-		let showRandomMusicQuestion = musicQuestions[randomMusicQuestion];
-			question.innerHTML = "<p>" + showRandomMusicQuestion.question + "</p>";
-			answerA.innerHTML = showRandomMusicQuestion.a;
-			answerB.innerHTML = showRandomMusicQuestion.b;
-			answerC.innerHTML = showRandomMusicQuestion.c;
-			answerD.innerHTML = showRandomMusicQuestion.d;
-
-		console.log(musicQuestions[randomMusicQuestion]);
+	function generateRandomQuestion() {
+		let randomQuestion = Math.floor(Math.random() * questions.length);
+		let showRandomQuestion =  questions[randomQuestion];
+			question.innerHTML = "<p>" + showRandomQuestion.question + "</p>";
+			flagImage.innerHTML = "<img src=" + q.imgSrc + ">";
+			choiceA.innerHTML = showRandomQuestion.choiceA;
+			choiceB.innerHTML = showRandomQuestion.choiceB;
+			choiceC.innerHTML = showRandomQuestion.choiceC;
 	}
+
 
 
 
