@@ -1,6 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
   //   Functions
-		function buildQuiz() {}
+		function buildQuiz() {
+			const output = [ ];
+
+			// For each question
+			myQuestions.forEach(
+				(currentQuestion, questionNumber) => {
+					// Variable to store list of answers
+					const answers = [ ];
+
+					// and for each available answer...
+					for(letter in currentQuestion.answers) {
+						answers.push(
+							`<label>
+								<input type="radio" name="question${questionNumber}" value=${letter}
+								${letter} :
+								${currentQuestion.answers[letter]}
+							</label>`
+						);
+					}
+				}
+			)
+		}
 		function showResults() {}
 
   // Variables for the Quiz
@@ -111,8 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
 	];
 
   //   DIsplays functions right away.
-  buildQuiz();
+		buildQuiz();
 
   //   On submit, show the results
-  submitButton.addEventListener("click", showResults);
+		submitButton.addEventListener("click", showResults);
 });
