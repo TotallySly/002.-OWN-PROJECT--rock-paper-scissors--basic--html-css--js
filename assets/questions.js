@@ -1,6 +1,6 @@
 // A file for all my questions.
 
-const musicQuestions = [
+const myQuestions = [
   {
     question:
       "For which movie did Steven Spielberg win his first Oscar for Best Director?",
