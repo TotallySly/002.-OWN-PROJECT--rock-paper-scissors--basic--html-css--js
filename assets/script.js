@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
+	const generateFlag = document.getElementById("flag");
 	const question = document.getElementById("question");
-	const qImg = document.getElementById("qimg");
-	const choiceA = document.getElementById("answerA");
-	const choiceB = document.getElementById("answerB");
-	const choiceC = document.getElementById("answerC");
-	const answer = document.getElementById("submitAnswer");
+	const flagImage = document.getElementById("flagImage");
+	const choiceA = document.getElementById("A");
+	const choiceA = document.getElementById("B");
+	const choiceA = document.getElementById("C");
+	
+
+	
 
 
 
