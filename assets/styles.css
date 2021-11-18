@@ -9,7 +9,9 @@ body{
   background-size: cover;
   font-family: 'Bonheur Royale', cursive;
   font-size: 2em;
+  color: #DAE2DF;
 }
+
 
 .flex-container {
   display: flex;
@@ -32,6 +34,9 @@ button {
   font-size: 1.2rem;
   margin-left: 1em;
   margin-right: 1em;
+  background-color: #3E3432;
+  color: inherit;
+  
 }
 
 
