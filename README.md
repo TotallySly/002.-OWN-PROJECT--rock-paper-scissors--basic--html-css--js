@@ -115,7 +115,7 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 
 I used Google Fonts to select my fonts.
 
-![Typography]().
+![Typography](assets/images/readme-fontstyle.png).
 
 ---
 
@@ -128,7 +128,7 @@ I used Google Fonts to select my fonts.
 <details>
 <summary>Background Image</summary>
 
-![Desktop Wireframe]()
+![Background Image]()
 
 </details>
 
