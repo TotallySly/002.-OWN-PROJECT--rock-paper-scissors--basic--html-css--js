@@ -1,10 +1,10 @@
-# Pub Quiz
+# Guess The Flag
 
-Who doesn't love a pub quiz?! This is a pub quiz in which the user can pick one of four different subjects to test out their knowledge!
+Guess The Flag! Do you know about countries flags?! Well, see how much you actually know!
 
 Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/)
 
-![Responsive Mockup]()
+![Responsive Mockup](assets/images/readme-amiresponsive.png)
 
 ---
 
@@ -128,57 +128,70 @@ I used Google Fonts to select my fonts.
 <details>
 <summary>Background Image</summary>
 
-![Background Image]()
+![Background Image](assets/images/background-image.png)
 
 </details>
 
----
 
-- I felt like this background image was well suited.
-
-####
+- I felt like this background image was amazing for this project. It gives a nice warm friendly feeling. Almost like a cosy Autumn. The magnifying glass searching for countries is a great addition to the whole concept of the quiz.
 
 ---
 
-####
+#### Logo / Heading
+
+<details>
+<summary>Logo</summary>
+
+![Logo Image](assets/images/readme-logoimage.png)
+
+</details>
+
+- The logo is a nice and simple design. It is the name of the quiz within two Font Awesome flag icons, of a flag. I felt like this simple design does not distract the user from the quiz at all. but also clearly defines the quiz in itself.
 
 ---
 
-####
+#### Generate Flag Button
+
+<details>
+<summary>Generate Flag Button</summary>
+
+![Generate Flag Button](assets/images/readme-generateflagbtn.png)
+
+</details>
+
+- The generate flag button is a simple button but with the font of the the website. This is to maintain the same style throughout the website. This button will display a new flag for the user to guess. 
 
 ---
 
-####
+#### Flag Question
+
+<details>
+<summary>Flag Question</summary>
+
+![Flag Question](assets/images/readme-theflagquestion.png)
+
+</details>
+
+- The 'whose flag is this' remains consistent through the quiz. It is using the same font family to continue the theme. The flag is generated after the user clicks the 'generate random flag' button. The flag image remains the biggest image on the page, as this is what the user needs to see in order to answer the question.
+
+- The flag is taken from flagpedia.net.
 
 ---
 
-####
+#### Option Buttons
+
+<details>
+<summary>Answer Options</summary>
+
+![Answer Options](assets/images/readme-optionbtn.png)
+
+</details>
+
+The option buttons use the same font as the whole webpage, which is keeping in with the websites theme.
 
 ---
 
-####
 
----
-
-####
-
----
-
-####
-
----
-
-####
-
----
-
-####
-
----
-
-####
-
----
 
 ### Features Left To Implement
 
@@ -232,6 +245,8 @@ After website completion, I submitted the website to Code Institute's Slack Comm
 
 ### Bugs
 
+- The whole thing.
+
 ---
 
 ## Deployment
@@ -243,13 +258,12 @@ After website completion, I submitted the website to Code Institute's Slack Comm
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 - The link:
-  - [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
+  - [Flag Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 ---
 
 ## Credits
 
-- The initial layout of code was taken from Code Institute. This has been accredited within the code as well. [Layout From Code Institute's Love Maths Calculator]()
 
 ### Content
 
@@ -260,9 +274,9 @@ After website completion, I submitted the website to Code Institute's Slack Comm
 
 ### Media
 
-- []().
+- [Background Image - Clay Banks](https://unsplash.com/photos/b5S4FrJb7yQ).
 
--[]()
+- [Flag Images](https://flagpedia.net/download)
 
 []()
 
