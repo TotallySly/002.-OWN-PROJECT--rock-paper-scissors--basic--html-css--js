@@ -107,7 +107,7 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 
 ### Colour Scheme
 
-![Colour Palette]()
+![Colour Palette](assets/images/readme-colourpalette.png)
 
 ---
 

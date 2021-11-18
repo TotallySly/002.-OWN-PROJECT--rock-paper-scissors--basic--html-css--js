@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
 
 body{
-    background-image: url("../images/background-image.png");
+    background-image: url("..assets/images/background-image.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
