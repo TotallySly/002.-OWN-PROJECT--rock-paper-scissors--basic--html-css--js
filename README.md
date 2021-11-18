@@ -2,7 +2,7 @@
 
 Who doesn't love a pub quiz?! This is a pub quiz in which the user can pick one of four different subjects to test out their knowledge!
 
-Link to the live [Pub Quiz](https://totallysly.github.io/portfolio-project-two/)
+Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/)
 
 ![Responsive Mockup]()
 
