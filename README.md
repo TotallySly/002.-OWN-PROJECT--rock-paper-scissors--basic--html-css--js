@@ -74,21 +74,21 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe]()
+![Desktop Wireframe](assets/images/readme-desktop-wireframe.png)
 
 </details>
 
 <details>
 <summary>Tablet Wireframe</summary>
 
-![Desktop Wireframe]()
+![Desktop Wireframe](assets/images/readme-tablet-wireframe.png)
 
 </details>
 
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Desktop Wireframe]()
+![Desktop Wireframe](assets/images/readme-mobile-wireframe.png)
 
 </details>
 
