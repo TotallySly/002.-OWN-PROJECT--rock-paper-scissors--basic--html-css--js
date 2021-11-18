@@ -42,14 +42,13 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 
 - I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
 
-- I enjoyed the Love Maths project with the Code Institute, so I adopted and adapted their quiz layout.
 
 ---
 
 ### Website Goals
 
     - To provide a fun and interactive game for users using JavaScript
-    - To test and improve the knowledge of the users knowledge of different knowledge.
+    - To test and improve the knowledge of the users skills in guessing which countries flags relate to which country
     - Allow players to see their score increment with, both, correct and incorrect answers.
 
 ---
@@ -57,7 +56,7 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 ### User Goals
 
     - To correctly play an interactive quiz!
-    - To improve upon their general knowledge
+    - To improve upon their geography knowledge
     - To have fun!
 
 ### Potential Features to Use
