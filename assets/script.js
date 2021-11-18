@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	let questions = [
 		{
 			question: "Whose flag is this?",
-			imgSrc: "../images/br.png",
+			imgSrc: "assets/images/br.png",
 			choiceA: "France",
 			choiceB: "Brazil",
 			choiceC: "England",
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		{
 			question: "Whose flag is this?",
-			imgSrc: "../images/fr.png",
+			imgSrc: "assets/images/fr.png",
 			choiceA: "France",
 			choiceB: "Brazil",
 			choiceC: "England",
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		},
 		{
 			question: "Whose flag is this?",
-			imgSrc: "../images/gb-eng.png",
+			imgSrc: "assets/images/gb-eng.png",
 			choiceA: "France",
 			choiceB: "Brazil",
 			choiceC: "England",

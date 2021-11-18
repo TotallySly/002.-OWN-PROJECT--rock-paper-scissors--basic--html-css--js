@@ -134,6 +134,8 @@ I used Google Fonts to select my fonts.
 
 ---
 
+- I felt like this background image was well suited.
+
 ####
 
 ---
