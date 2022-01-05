@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: black;
+  color: gold;
+}
+
+.heading {
+  text-align: center;
+}
