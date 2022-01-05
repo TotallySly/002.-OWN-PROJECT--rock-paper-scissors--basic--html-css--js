@@ -16,14 +16,3 @@ body {
   background-color: black;
   color: gold;
 }
-
-.heading {
-  text-align: center;
-  font-size: 10em;
-}
-
-.game-icons {
-  text-align: center;
-  font-size: 10em;
-  padding-top: 0.4em;
-}
