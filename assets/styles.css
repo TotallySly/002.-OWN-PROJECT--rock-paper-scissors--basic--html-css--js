@@ -19,11 +19,19 @@ body {
 
 .heading {
   text-align: center;
-  font-size: 10vw;
+  font-size: 15vw;
 }
 
 .game-icons {
   text-align: center;
-  font-size: 10vw;
+  font-size: 20vw;
   margin-top: 0.5em;
+}
+
+.fa-hand-rock {
+  margin-right: 5vw;
+}
+
+.fa-hand-paper {
+  margin-right: 5vw;
 }
