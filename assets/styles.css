@@ -35,3 +35,8 @@ body {
 .fa-hand-paper {
   margin-right: 5vw;
 }
+
+.user-display {
+  margin-top: 2vh;
+  font-size: 5vw;
+}
