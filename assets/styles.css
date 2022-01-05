@@ -40,3 +40,18 @@ body {
   margin-top: 5vh;
   font-size: 5vw;
 }
+
+.computer-display {
+  margin-top: 5vh;
+  font-size: 5vw;
+}
+
+.user-score-container {
+  font-size: 5vw;
+  margin-top: 20vh;
+}
+
+.computer-score-container {
+  font-size: 5vw;
+  margin-top: 5vh;
+}

@@ -1,7 +1,8 @@
-"use strict";
+document.addEventListener("DOMContentLoaded", function () {});
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.querySelector(".rock-icon").addEventListener("click", function () {
-    alert("hello");
-  });
-});
+//Global Variables
+
+let userScore = 0;
+let computerScore = 0;
+
+const computerChoice = document.get;
