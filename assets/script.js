@@ -1,9 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {});
+// document.addEventListener("DOMContentLoaded", function () {});
 
 //Global Variables
 
 let userScore = 0;
 let computerScore = 0;
+
+let computerChoice = Math.random() * 3;
+console.log(computerChoice);
 
 const userClickRock = document
   .querySelector(".rock-icon")
