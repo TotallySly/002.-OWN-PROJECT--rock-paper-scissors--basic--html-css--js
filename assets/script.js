@@ -7,7 +7,8 @@ const compScoreDisplay = document.getElementById("comp-score");
 
 // TODO
 // Will need to change to class name if i plan to add more buttons. I.E GAME RULES/HARDER GAME (MAYBE)
-const possibleChoices = document.querySelectorAll("button");
+//const possibleChoices = document.querySelectorAll("button");
+const possibleChoices = document.querySelectorAll(".play-btn");
 
 // Empty variables for player and user choice.
 let playerChoice;
@@ -47,7 +48,7 @@ function generateComputerChoice() {
     compChoice = "rock";
   } else if (randNum === 2) {
     compChoice = "paper";
-  } else {
+  } else if (randNum === 3) {
     compChoice = "scissors";
   }
 
@@ -57,6 +58,9 @@ function generateComputerChoice() {
 
 // Check The Result
 
+
+//BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX
+//BUG SOME SCORES DO NOT UPDATE FIX
 function checkResult() {
   if (compChoice === playerChoice) {
     result = "Draw!";
