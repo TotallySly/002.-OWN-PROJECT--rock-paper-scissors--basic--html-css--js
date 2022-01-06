@@ -1,7 +1,7 @@
-// Global Variables
-const userRock = document.querySelector("rock-icon");
-const userPaper = document.querySelector("paper-icon");
-const userScissors = document.querySelector("scissor-icon");
-const showCompChoice = document.querySelector("display-computer-choice");
-const userScore = document.querySelector("user-score");
-const compScore = document.querySelector("computer-score");
+const computerChoice = document.querySelector(".display-computer-choice");
+const result = document.getElementById("result");
+const possibleChoices = document.querySelector(".choiceBtn");
+
+possibleChoices.forEach((possibleChoice) =>
+  possibleChoice.addEventListener("click", function (event) {})
+);
