@@ -4,6 +4,7 @@ const playerChoiceDisplay = document.getElementById("player-choice");
 const resultDisplay = document.getElementById("result");
 const playerScoreDisplay = document.getElementById("player-score");
 const compScoreDisplay = document.getElementById("comp-score");
+const resetBtn = document.getElementById("reset-btn")
 
 // TODO
 // Will need to change to class name if i plan to add more buttons. I.E GAME RULES/HARDER GAME (MAYBE)
@@ -33,7 +34,17 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click
   //Generate Computer Choice
   generateComputerChoice();
   checkResult();
+
 }));
+
+// Resets Scores
+resetBtn.addEventListener("click", (e) => {
+  compChoiceDisplay.innerHTML = " ";
+  playerChoiceDisplay.innerHTML = " ";
+  resultDisplay.innerHTML = " ";
+  playerScoreDisplay.innerHTML = "0";
+  compScoreDisplay.innerHTML = "0";
+})
 
 //Functions// 
 // Generate Computer Choice
@@ -59,29 +70,35 @@ function generateComputerChoice() {
 // Check The Result
 
 
-//BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX
-//BUG SOME SCORES DO NOT UPDATE FIX
+//BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX ----- FIXED
+//BUG SOME SCORES DO NOT UPDATE FIX ----- FIXED
 function checkResult() {
   if (compChoice === playerChoice) {
     result = "Draw!";
   } else if (compChoice === "rock" && playerChoice === "paper") {
     result = "Player Wins!";
-    playerScoreDisplay.innerHTML = playerScore++;
+    playerScore++
+    playerScoreDisplay.innerHTML = `${playerScore}`;
   } else if (compChoice === "rock" && playerChoice === "scissors") {
     result = "Computer Wins!";
-    compScoreDisplay.innerHTML = compScore++;
+    compScore++
+    compScoreDisplay.innerHTML = `${compScore}`;
   } else if (compChoice === "scissors" && playerChoice === "paper") {
     result = "Computer Wins!";
-    compScoreDisplay.innerHTML = compScore++;
+    compScore++
+    compScoreDisplay.innerHTML = `${compScore}`;
   } else if (compChoice === "scissors" && playerChoice === "rock") {
     result = "Player Wins!";
-    playerScoreDisplay.innerHTML = playerScore++;
+    playerScore++
+    playerScoreDisplay.innerHTML = `${playerScore}`;
   } else if (compChoice === "paper" && playerChoice === "scissors") {
     result = "Player Wins!";
-    playerScoreDisplay.innerHTML = playerScore++;
+    playerScore++
+    playerScoreDisplay.innerHTML = `${playerScore}`;
   } else if (compChoice === "paper" && playerChoice === "rock") {
     result = "Computer Wins!";
-    compScoreDisplay.innerHTML = compScore++;
+    compScore++
+    compScoreDisplay.innerHTML = `${compScore}`;
   }
   
   //Display Result in HTML
@@ -91,3 +108,4 @@ function checkResult() {
 
 //TODO Score Function
 //TODO RESET FUNCTION
+
