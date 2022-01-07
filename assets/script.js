@@ -4,7 +4,17 @@ const playerChoiceDisplay = document.getElementById("player-choice");
 const resultDisplay = document.getElementById("result");
 const playerScoreDisplay = document.getElementById("player-score");
 const compScoreDisplay = document.getElementById("comp-score");
-const resetBtn = document.getElementById("reset-btn")
+const resetBtn = document.getElementById("reset-btn");
+const overlay = document.querySelector("#overlay");
+
+document.querySelector("#show-modal-btn").addEventListener("click", () => {
+  overlay.style.display = "block";
+})
+
+document.querySelector("#close-modal-btn").addEventListener("click", () => {
+  overlay.style.display = "none";
+})
+
 
 // TODO
 // Will need to change to class name if i plan to add more buttons. I.E GAME RULES/HARDER GAME (MAYBE)
