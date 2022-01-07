@@ -8,11 +8,11 @@ const resetBtn = document.getElementById("reset-btn");
 const overlay = document.querySelector("#overlay");
 
 document.querySelector("#show-modal-btn").addEventListener("click", () => {
-  overlay.style.display = "block";
+    overlay.style.display = "block";
 })
 
 document.querySelector("#close-modal-btn").addEventListener("click", () => {
-  overlay.style.display = "none";
+    overlay.style.display = "none";
 })
 
 
@@ -35,25 +35,25 @@ let compScore = 0;
 
 // For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
-  playerChoice = e.target.id
+    playerChoice = e.target.id
 
-  // TODO
-  //Change to Font Awesome Icons
-  playerChoiceDisplay.innerHTML = playerChoice;
+    // TODO
+    //Change to Font Awesome Icons
+    playerChoiceDisplay.innerHTML = playerChoice;
 
-  //Generate Computer Choice
-  generateComputerChoice();
-  checkResult();
+    //Generate Computer Choice
+    generateComputerChoice();
+    checkResult();
 
 }));
 
 // Resets Scores
 resetBtn.addEventListener("click", (e) => {
-  compChoiceDisplay.innerHTML = " ";
-  playerChoiceDisplay.innerHTML = " ";
-  resultDisplay.innerHTML = " ";
-  playerScoreDisplay.innerHTML = "0";
-  compScoreDisplay.innerHTML = "0";
+    compChoiceDisplay.innerHTML = " ";
+    playerChoiceDisplay.innerHTML = " ";
+    resultDisplay.innerHTML = " ";
+    playerScoreDisplay.innerHTML = "0";
+    compScoreDisplay.innerHTML = "0";
 })
 
 //Functions// 
@@ -61,20 +61,20 @@ resetBtn.addEventListener("click", (e) => {
 
 //TODO randNum generates random number 1 - 3. If playing harder game. Will need to generate more numbers and assign them.
 function generateComputerChoice() {
-  const randNum = Math.trunc(Math.random() * 3 + 1);
-  console.log(randNum);
+    const randNum = Math.trunc(Math.random() * 3 + 1);
+    console.log(randNum);
 
-  // TODO Change string to maybe template literal to display Font Awesome Icons. Or Assign to variables. Need to test.
-  if (randNum === 1) {
-    compChoice = "rock";
-  } else if (randNum === 2) {
-    compChoice = "paper";
-  } else if (randNum === 3) {
-    compChoice = "scissors";
-  }
+    // TODO Change string to maybe template literal to display Font Awesome Icons. Or Assign to variables. Need to test.
+    if (randNum === 1) {
+        compChoice = "rock";
+    } else if (randNum === 2) {
+        compChoice = "paper";
+    } else if (randNum === 3) {
+        compChoice = "scissors";
+    }
 
-  // Displays Computer Choice to the logo. Might need to change the compChoice variable name to display Font Awesome icons.
-  compChoiceDisplay.innerHTML = compChoice;
+    // Displays Computer Choice to the logo. Might need to change the compChoice variable name to display Font Awesome icons.
+    compChoiceDisplay.innerHTML = compChoice;
 }
 
 // Check The Result
@@ -84,39 +84,38 @@ function generateComputerChoice() {
 //BUG SOME SCORES DO NOT UPDATE FIX ----- FIXED
 //BUG SOME SCORES GO UP IN INCREMENTS OF MORE THAN ONE.....
 function checkResult() {
-  if (compChoice === playerChoice) {
-    result = "Draw!";
-  } else if (compChoice === "rock" && playerChoice === "paper") {
-    result = "Player Wins!";
-    playerScore++
-    playerScoreDisplay.innerHTML = `${playerScore}`;
-  } else if (compChoice === "rock" && playerChoice === "scissors") {
-    result = "Computer Wins!";
-    compScore++
-    compScoreDisplay.innerHTML = `${compScore}`;
-  } else if (compChoice === "scissors" && playerChoice === "paper") {
-    result = "Computer Wins!";
-    compScore++
-    compScoreDisplay.innerHTML = `${compScore}`;
-  } else if (compChoice === "scissors" && playerChoice === "rock") {
-    result = "Player Wins!";
-    playerScore++
-    playerScoreDisplay.innerHTML = `${playerScore}`;
-  } else if (compChoice === "paper" && playerChoice === "scissors") {
-    result = "Player Wins!";
-    playerScore++
-    playerScoreDisplay.innerHTML = `${playerScore}`;
-  } else if (compChoice === "paper" && playerChoice === "rock") {
-    result = "Computer Wins!";
-    compScore++
-    compScoreDisplay.innerHTML = `${compScore}`;
-  }
-  
-  //Display Result in HTML
-  resultDisplay.innerHTML = result;
+    if (compChoice === playerChoice) {
+        result = "Draw!";
+    } else if (compChoice === "rock" && playerChoice === "paper") {
+        result = "Player Wins!";
+        playerScore++
+        playerScoreDisplay.innerHTML = `${playerScore}`;
+    } else if (compChoice === "rock" && playerChoice === "scissors") {
+        result = "Computer Wins!";
+        compScore++
+        compScoreDisplay.innerHTML = `${compScore}`;
+    } else if (compChoice === "scissors" && playerChoice === "paper") {
+        result = "Computer Wins!";
+        compScore++
+        compScoreDisplay.innerHTML = `${compScore}`;
+    } else if (compChoice === "scissors" && playerChoice === "rock") {
+        result = "Player Wins!";
+        playerScore++
+        playerScoreDisplay.innerHTML = `${playerScore}`;
+    } else if (compChoice === "paper" && playerChoice === "scissors") {
+        result = "Player Wins!";
+        playerScore++
+        playerScoreDisplay.innerHTML = `${playerScore}`;
+    } else if (compChoice === "paper" && playerChoice === "rock") {
+        result = "Computer Wins!";
+        compScore++
+        compScoreDisplay.innerHTML = `${compScore}`;
+    }
+
+    //Display Result in HTML
+    resultDisplay.innerHTML = result;
 }
 
 
 //TODO Score Function
 //TODO RESET FUNCTION
-
