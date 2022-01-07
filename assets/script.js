@@ -38,6 +38,8 @@ let compScore = 0;
 // For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
     playerChoice = e.target.id
+    
+
     playerChoiceDisplay.innerHTML = playerChoice;
 
     //Generate Computer Choice
@@ -64,11 +66,11 @@ function generateComputerChoice() {
     console.log(randNum);
 
     if (randNum === 1) {
-        compChoice = "rock";
+        compChoice = "🤘";
     } else if (randNum === 2) {
-        compChoice = "paper";
+        compChoice = "🧻";
     } else if (randNum === 3) {
-        compChoice = "scissors";
+        compChoice = "✂";
     }
 
     // Displays Computer Choice to the logo. Might need to change the compChoice variable name to display Font Awesome icons.
@@ -84,27 +86,27 @@ function generateComputerChoice() {
 function checkResult() {
     if (compChoice === playerChoice) {
         result = "Draw!";
-    } else if (compChoice === "rock" && playerChoice === "paper") {
+    } else if (compChoice === "🤘" && playerChoice === "🧻") {
         result = "Player Wins!";
         playerScore++
         playerScoreDisplay.innerHTML = `${playerScore}`;
-    } else if (compChoice === "rock" && playerChoice === "scissors") {
+    } else if (compChoice === "🤘" && playerChoice === "✂") {
         result = "Computer Wins!";
         compScore++
         compScoreDisplay.innerHTML = `${compScore}`;
-    } else if (compChoice === "scissors" && playerChoice === "paper") {
+    } else if (compChoice === "✂" && playerChoice === "🧻") {
         result = "Computer Wins!";
         compScore++
         compScoreDisplay.innerHTML = `${compScore}`;
-    } else if (compChoice === "scissors" && playerChoice === "rock") {
+    } else if (compChoice === "✂" && playerChoice === "🤘") {
         result = "Player Wins!";
         playerScore++
         playerScoreDisplay.innerHTML = `${playerScore}`;
-    } else if (compChoice === "paper" && playerChoice === "scissors") {
+    } else if (compChoice === "🧻" && playerChoice === "✂") {
         result = "Player Wins!";
         playerScore++
         playerScoreDisplay.innerHTML = `${playerScore}`;
-    } else if (compChoice === "paper" && playerChoice === "rock") {
+    } else if (compChoice === "🧻" && playerChoice === "🤘") {
         result = "Computer Wins!";
         compScore++
         compScoreDisplay.innerHTML = `${compScore}`;
