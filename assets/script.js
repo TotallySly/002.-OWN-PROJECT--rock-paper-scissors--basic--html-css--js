@@ -1,3 +1,8 @@
+//TODO INNER.HTML the Font AWESOME ICON for compter choice. Get element by ID and variable maybe?????? Copy and paste in a string does work.
+//TODO INNER.HTML the Font Awsome Icon for Player Choice.
+//TODO randNum generates random number 1 - 3. If playing harder game. Will need to generate more numbers and assign them. !!!!!! MAYBE !!!!!!!!!!!!!!
+
+
 // Caching the ID Elements from the HTML
 const compChoiceDisplay = document.getElementById("comp-choice");
 const playerChoiceDisplay = document.getElementById("player-choice");
@@ -16,9 +21,6 @@ document.querySelector("#close-modal-btn").addEventListener("click", () => {
 })
 
 
-// TODO
-// Will need to change to class name if i plan to add more buttons. I.E GAME RULES/HARDER GAME (MAYBE)
-//const possibleChoices = document.querySelectorAll("button");
 const possibleChoices = document.querySelectorAll(".play-btn");
 
 // Empty variables for player and user choice.
@@ -36,9 +38,6 @@ let compScore = 0;
 // For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
     playerChoice = e.target.id
-
-    // TODO
-    //Change to Font Awesome Icons
     playerChoiceDisplay.innerHTML = playerChoice;
 
     //Generate Computer Choice
@@ -59,12 +58,11 @@ resetBtn.addEventListener("click", (e) => {
 //Functions// 
 // Generate Computer Choice
 
-//TODO randNum generates random number 1 - 3. If playing harder game. Will need to generate more numbers and assign them.
+
 function generateComputerChoice() {
     const randNum = Math.trunc(Math.random() * 3 + 1);
     console.log(randNum);
 
-    // TODO Change string to maybe template literal to display Font Awesome Icons. Or Assign to variables. Need to test.
     if (randNum === 1) {
         compChoice = "rock";
     } else if (randNum === 2) {
@@ -115,7 +113,3 @@ function checkResult() {
     //Display Result in HTML
     resultDisplay.innerHTML = result;
 }
-
-
-//TODO Score Function
-//TODO RESET FUNCTION
