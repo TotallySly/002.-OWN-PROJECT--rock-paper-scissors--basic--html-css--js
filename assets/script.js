@@ -72,6 +72,7 @@ function generateComputerChoice() {
 
 //BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX ----- FIXED
 //BUG SOME SCORES DO NOT UPDATE FIX ----- FIXED
+//BUG SOME SCORES GO UP IN INCREMENTS OF MORE THAN ONE.....
 function checkResult() {
   if (compChoice === playerChoice) {
     result = "Draw!";

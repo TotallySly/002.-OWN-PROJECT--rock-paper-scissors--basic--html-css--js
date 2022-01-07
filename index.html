@@ -12,17 +12,31 @@
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <div>Computer Choice: <span id="comp-choice"></span></div>
-    <div>Player Choice: <span id="player-choice"></span></div>
-    <div>Result: <span id="result"></span></div>
-    <div>Computer Score: <span id="comp-score">0</span></div>
-    <div>Player Score: <span id="player-score">0</span></div>
+
+    <!--Modal-->
+    <button id="show-modal-btn">Show Modal</button>
+    <div id="overlay">
+      <div id="modal">
+        <button id="close-modal btn">Close Modal</button>
+      </div>
+    </div>
+    <!--Modal-->
+
+    <!--Game Content-->
+    <div class="game-content">
+      <div>Computer Choice: <span id="comp-choice"></span></div>
+      <div>Player Choice: <span id="player-choice"></span></div>
+      <div>Result: <span id="result"></span></div>
+      <div>Computer Score: <span id="comp-score">0</span></div>
+      <div>Player Score: <span id="player-score">0</span></div>
     
     
-    <button class="play-btn" id="rock">Rock</button>
-    <button class="play-btn" id="paper">Paper</button>
-    <button class="play-btn" id="scissors">Scissors</button>
-    <div><button id="reset-btn">Reset Game</button></div>
+      <button class="play-btn" id="rock">Rock</button>
+      <button class="play-btn" id="paper">Paper</button>
+      <button class="play-btn" id="scissors">Scissors</button>
+      <div><button id="reset-btn">Reset Game</button></div>
+    </div>
+    <!--Game Content-->
     <script src="assets/script.js"></script>
   </body>
 </html>
