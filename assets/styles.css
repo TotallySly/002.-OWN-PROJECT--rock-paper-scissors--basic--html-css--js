@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* font-family: 'Nunito', sans-serif; */
 
 /* Universal Reset */
 html {
@@ -70,7 +71,7 @@ body {
     max-width: 600px;
     height: 300px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.849);
     color: rgba(218, 165, 32, 0.87);
     position: absolute;
     top: 0;
@@ -115,6 +116,7 @@ body {
     margin-left: 1em;
 }
 
+
 .result {
     font-weight: bold;
     padding-bottom: 1em;
@@ -143,4 +145,25 @@ body {
 }
 
 
+/* Mobile Queries */
 
+@media only screen and (min-width: 386px) {
+    #comp-choice {
+        margin: 3em;
+    }
+
+    #player-choice {
+        margin: 3em;
+    }
+
+    #modal {
+        height: 400px;
+    }
+
+}
+
+@media only screen and (min-width: 1440px ) {
+    #modal {
+        height: 500px;
+    }
+}
