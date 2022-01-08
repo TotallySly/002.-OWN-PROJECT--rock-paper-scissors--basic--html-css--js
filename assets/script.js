@@ -48,13 +48,16 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click
 
 }));
 
+
+//BUG RESET QUIZ SCORE TO ZERO COMPLETELY
 // Resets Scores
 resetBtn.addEventListener("click", (e) => {
     compChoiceDisplay.innerHTML = " ";
     playerChoiceDisplay.innerHTML = " ";
     resultDisplay.innerHTML = " ";
-    playerScoreDisplay.innerHTML = "0";
-    compScoreDisplay.innerHTML = "0";
+    playerScoreDisplay.innerHTML = playerScore;
+    compScoreDisplay.innerHTML = compScore;
+    location.reload();
 })
 
 //Functions// 
