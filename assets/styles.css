@@ -17,10 +17,85 @@ html {
 }
 
 body {
-    font-size: 5vh;
+    font-size: 4vh;
     background-color: rgba(0, 0, 0, 0.849);
     color: rgba(218, 165, 32, 0.87);
     font-family: 'Nunito', sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.rule-btn {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.modal-btn {
+    padding: 0.5em;
+}
+
+#reset-btn {
+    padding: 0.5em;
+}
+
+/* Modal CSS */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal {
+    max-width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/* IF SIZING DOESN'T WORK THE TUTORIAL SET WEBSITE CONTENT TO 1000VH*/
+/* Modal CSS */
+
+.game-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.display-choice {
+    display: flex;
+    padding-bottom: 1em;
+}
+
+.display-comp {
+    margin-left: 1em;
+}
+
+.result {
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end:
+}
+
+.score {
+    font-weight: bold;
 }
 
 
