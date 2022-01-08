@@ -95,9 +95,9 @@ button:hover {
 .key {
     margin-bottom: 3vh;
 }
-
 /* Modal CSS */
 
+/* Game Content */
 .game-content{
     display: flex;
     flex-direction: column;
@@ -106,44 +106,34 @@ button:hover {
 
 .display-choice {
     display: flex;
-    padding-bottom: 1em;
+    margin: 1em;
 }
 
-.display-comp {
-    margin-left: 1em;
-}
-
-
-.result {
+#result {
     font-weight: bold;
-    padding-bottom: 1em;
 }
 
 .scores {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 .score {
     font-weight: bold;
 }
 
-.play-btn {
+.game-btns {
     margin: 1em;
     padding: 1em;
     font-size: 3vh;
     border-radius: 0.25em;
 }
-
-.play-btn:hover {
-    background-color: goldenrod;
-}
+/* Game Content */
 
 
 /* Mobile Queries */
-
 @media only screen and (min-width: 386px) {
     #comp-choice {
         margin: 3em;
@@ -164,3 +154,4 @@ button:hover {
         height: 500px;
     }
 }
+/* Mobile Queries */

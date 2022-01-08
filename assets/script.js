@@ -1,8 +1,3 @@
-//TODO INNER.HTML the Font AWESOME ICON for compter choice. Get element by ID and variable maybe?????? Copy and paste in a string does work.
-//TODO INNER.HTML the Font Awsome Icon for Player Choice.
-//TODO randNum generates random number 1 - 3. If playing harder game. Will need to generate more numbers and assign them. !!!!!! MAYBE !!!!!!!!!!!!!!
-
-
 // Caching the ID Elements from the HTML
 const compChoiceDisplay = document.getElementById("comp-choice");
 const playerChoiceDisplay = document.getElementById("player-choice");
@@ -12,6 +7,7 @@ const compScoreDisplay = document.getElementById("comp-score");
 const resetBtn = document.getElementById("reset-btn");
 const overlay = document.querySelector("#overlay");
 
+// Event Listeners to Open and Close the Modal
 document.querySelector("#show-modal-btn").addEventListener("click", () => {
     overlay.style.display = "block";
 })
@@ -23,7 +19,7 @@ document.querySelector("#close-modal-btn").addEventListener("click", () => {
 
 
 
-const possibleChoices = document.querySelectorAll(".play-btn");
+const possibleChoices = document.querySelectorAll(".game-btns");
 
 // Empty variables for player and user choice.
 let playerChoice;
