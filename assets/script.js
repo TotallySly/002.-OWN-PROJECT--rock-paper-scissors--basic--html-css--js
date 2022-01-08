@@ -21,6 +21,8 @@ document.querySelector("#close-modal-btn").addEventListener("click", () => {
 })
 
 
+
+
 const possibleChoices = document.querySelectorAll(".play-btn");
 
 // Empty variables for player and user choice.

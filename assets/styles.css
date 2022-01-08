@@ -66,17 +66,18 @@ body {
 }
 
 #modal {
+    font-size: 1vw;
     max-width: 600px;
     height: 300px;
     margin: auto;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.849);
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-/* IF SIZING DOESN'T WORK THE TUTORIAL SET WEBSITE CONTENT TO 1000VH*/
+
 /* Modal CSS */
 
 .game-content{
