@@ -92,7 +92,12 @@ button:hover {
     margin-bottom: 3vh;
 }
 
+.center {
+    text-align: center;
+}
+
 .key {
+    text-align: center;
     margin-bottom: 3vh;
 }
 /* Modal CSS */
