@@ -1,5 +1,28 @@
-/* Modal CSS */
 
+/* Universal Reset */
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+/* Modal CSS */
 #overlay {
     display: none;
     position: fixed;
@@ -22,6 +45,5 @@
     left: 0;
     right: 0;
 }
-
 /* IF SIZING DOESN'T WORK THE TUTORIAL SET WEBSITE CONTENT TO 1000VH*/
 /* Modal CSS */
