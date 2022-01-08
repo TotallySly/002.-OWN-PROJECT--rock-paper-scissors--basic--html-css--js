@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
 /* Universal Reset */
 html {
     font-size: 62.5%;
@@ -13,6 +15,15 @@ html {
     border: none;
     letter-spacing: 1px;
 }
+
+body {
+    font-size: 5vh;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(218, 165, 32, 0.87);
+    font-family: 'Nunito', sans-serif;
+}
+
+
 
 
 
