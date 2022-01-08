@@ -16,13 +16,16 @@ html {
     border: none;
     letter-spacing: 1px;
 }
+/* Universal Reset */
 
+/* Main CSS Styles*/
 body {
     font-size: 4vh;
     background-color: rgba(0, 0, 0, 0.849);
     color: rgba(218, 165, 32, 0.87);
     font-family: 'Nunito', sans-serif;
 }
+/* Main CSS Styles*/
 
 .title {
     text-align: center;
@@ -30,29 +33,23 @@ body {
     margin-bottom: 5vh;
 }
 
+/* Non-Game Buttons */
 .top-btns {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 1em;
 }
 
-.modal-btn {
+/* Includes Modal Button*/
+.non-game-btns {
     border-radius: 0.25em;
     padding: 0.75em;
 }
 
-.modal-btn:hover {
+button:hover {
     background-color: rgba(218, 165, 32, 0.87);
 }
-
-.ruleset-btns {
-    border-radius: 0.25em;
-    padding: 0.75em;
-}
-
-.ruleset-btns:hover {
-    background-color: rgba(218, 165, 32, 0.87);
-}
+/* Non-Game Buttons */
 
 /* Modal CSS */
 #overlay {

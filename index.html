@@ -23,47 +23,49 @@
     <!--https://www.youtube.com/watch?v=uUCpopjPZdI&ab_channel=codefoxx - JavaScript - How to Create a Pop-Up Modal ( Super Easy! ) (codefoxx)-->
 
     <!--Non-Game Buttons-->
-    <div class="top-btns">
-        <button class="ruleset-btns" class="modal-btn" id="show-modal-btn">Rules</button>
-        <button class="ruleset-btns" id="reset-btn">Reset Game</button>
-    </div>
+    <section class="top-btns">
+        <button class="non-game-btns modal-btn" id="show-modal-btn">Rules</button>
+        <button class="non-game-btns" id="reset-btn">Reset Game</button>
+    </section>
     <!--Non-Game Buttons-->
 
     <!--Modal-->
-    <div id="overlay">
+    <section id="overlay">
         <div id="modal">
-            <button class="modal-btn" id="close-modal-btn">x</button>
-            <div class="modal-container">
+            <button class="non-game-btns modal-btn" id="close-modal-btn">x</button>
+            <header class="modal-container">
                 <h1 class="rules-title">How to play: </h1>
-                <p class="game-desc">
-                    Click on the method you wish to play with and see if you can beat the computer!
-                </p>
-                <p class="key">
-                    <span>🤘</span><span> = ROCK</span>
-                    <span>🧻</span><span> = PAPER</span>
-                    <span>✂</span><span> = SCISSORS</span>
-                </p>
-                <p>
-                    Winning methods:
-                </p>
-                <div>
-                    <span>🤘</span>
-                    <span>BEATS</span>
-                    <span>✂</span>
-                </div>
-                <div>
-                    <span>✂</span>
-                    <span>BEATS</span>
-                    <span>🧻</span>
-                </div>
-                <div class="modal-btm-margin">
-                    <span>🧻</span>
-                    <span>BEATS</span>
-                    <span>🤘</span>
-                </div>
-            </div>
+                <main>
+                    <p class="game-desc">
+                        Click on the method you wish to play with and see if you can beat the computer!
+                    </p>
+                    <p class="key">
+                        <span>🤘</span><span> = ROCK</span>
+                        <span>🧻</span><span> = PAPER</span>
+                        <span>✂</span><span> = SCISSORS</span>
+                    </p>
+                    <p>
+                        Winning methods:
+                    </p>
+                    <section>
+                        <span>🤘</span>
+                        <span>BEATS</span>
+                        <span>✂</span>
+                    </section>
+                    <section>
+                        <span>✂</span>
+                        <span>BEATS</span>
+                        <span>🧻</span>
+                    </section>
+                    <section class="modal-btm-margin">
+                        <span>🧻</span>
+                        <span>BEATS</span>
+                        <span>🤘</span>
+                    </section>
+                </main>
+            </header>
         </div>
-    </div>
+    </section>
     <!--Modal-->
 
 
@@ -71,29 +73,29 @@
     <main class="game-content">
 
         <!--Display the choices-->
-        <div class="display-choice">
+        <section class="display-choice">
             <div class="display-comp">Computer Choice: <span id="comp-choice"></span></div>
             <div>Player Choice: <span id="player-choice"></span></div>
-        </div>
+        </section>
         <!--Display the choices-->
 
         <!--Result-->
-        <div class="result">Result: <span id="result"></span></div>
+        <section class="result">Result: <span id="result"></span></section>
         <!--Result-->
 
         <!--Scores-->
-        <div class="scores">
+        <section class="scores">
             <div>Computer Score: <span class="score" id="comp-score">0</span></div>
             <div>Player Score: <span class="score" id="player-score">0</span></div>
-        </div>
+        </section>
         <!--Scores-->
 
         <!--Game Buttons-->
-        <div class="game-btns">
+        <section class="game-btns">
             <button id="🤘" class="play-btn">🤘</button>
             <button id="🧻" class="play-btn">🧻</button>
             <button id="✂" class="play-btn">✂</button>
-        </div>
+        </section>
         <!--Game Buttons-->
 
     </main>
