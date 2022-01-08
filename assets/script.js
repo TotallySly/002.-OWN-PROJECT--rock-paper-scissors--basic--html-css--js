@@ -6,8 +6,17 @@ const playerScoreDisplay = document.getElementById("player-score");
 const compScoreDisplay = document.getElementById("comp-score");
 const resetBtn = document.getElementById("reset-btn");
 const overlay = document.querySelector("#overlay");
+const possibleChoices = document.querySelectorAll(".game-btns");
+
+//Global and Empty Variables
+let playerScore = 0;
+let compScore = 0;
+let playerChoice;
+let compChoice;
+let result;
 
 // Event Listeners to Open and Close the Modal
+// https://www.youtube.com/watch?v=uUCpopjPZdI&ab_channel=codefoxx - JavaScript - How to Create a Pop-Up Modal ( Super Easy! ) (codefoxx)
 document.querySelector("#show-modal-btn").addEventListener("click", () => {
     overlay.style.display = "block";
 })
@@ -16,39 +25,7 @@ document.querySelector("#close-modal-btn").addEventListener("click", () => {
     overlay.style.display = "none";
 })
 
-
-
-
-const possibleChoices = document.querySelectorAll(".game-btns");
-
-// Empty variables for player and user choice.
-let playerChoice;
-let compChoice;
-let result;
-
-
-//Global Variables
-let playerScore = 0;
-let compScore = 0;
-
-
-
-// For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
-possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
-    playerChoice = e.target.id
-    
-
-    playerChoiceDisplay.innerHTML = playerChoice;
-
-    //Generate Computer Choice
-    generateComputerChoice();
-    checkResult();
-
-}));
-
-
-//BUG RESET QUIZ SCORE TO ZERO COMPLETELY
-// Resets Scores
+// Event Listener to clear the game display, so the user can play again
 resetBtn.addEventListener("click", (e) => {
     compChoiceDisplay.innerHTML = " ";
     playerChoiceDisplay.innerHTML = " ";
@@ -58,10 +35,21 @@ resetBtn.addEventListener("click", (e) => {
     location.reload();
 })
 
+// For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
+// https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w (Code with Ania Kubów)
+possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
+    playerChoice = e.target.id
+    playerChoiceDisplay.innerHTML = playerChoice;
+    generateComputerChoice();
+    checkResult();
+}));
+
+
+//BUG RESET QUIZ SCORE TO ZERO COMPLETELY
+
+
 //Functions// 
-// Generate Computer Choice
-
-
+// Generates computer Choice
 function generateComputerChoice() {
     const randNum = Math.trunc(Math.random() * 3 + 1);
     console.log(randNum);
@@ -73,14 +61,10 @@ function generateComputerChoice() {
     } else if (randNum === 3) {
         compChoice = "✂";
     }
-
-    // Displays Computer Choice to the logo. Might need to change the compChoice variable name to display Font Awesome icons.
     compChoiceDisplay.innerHTML = compChoice;
 }
 
-// Check The Result
-
-
+// Checks the Result
 //BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX ----- FIXED
 //BUG SOME SCORES DO NOT UPDATE FIX ----- FIXED
 //BUG SOME SCORES GO UP IN INCREMENTS OF MORE THAN ONE.....
@@ -112,7 +96,5 @@ function checkResult() {
         compScore++
         compScoreDisplay.innerHTML = `${compScore}`;
     }
-
-    //Display Result in HTML
     resultDisplay.innerHTML = result;
 }
