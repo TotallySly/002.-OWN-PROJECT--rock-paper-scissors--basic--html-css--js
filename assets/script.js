@@ -1,3 +1,7 @@
+/*jshint esversion: 6*/ 
+
+//Was getting Validator Errors. https://stackoverflow.com/questions/42866159/arrow-function-syntax-is-only-available-in-es6-use-esversion-6 - Solution.
+
 // Caching the ID Elements from the HTML
 const compChoiceDisplay = document.getElementById("comp-choice");
 const playerChoiceDisplay = document.getElementById("player-choice");
@@ -19,11 +23,11 @@ let result;
 // https://www.youtube.com/watch?v=uUCpopjPZdI&ab_channel=codefoxx - JavaScript - How to Create a Pop-Up Modal ( Super Easy! ) (codefoxx)
 document.querySelector("#show-modal-btn").addEventListener("click", () => {
     overlay.style.display = "block";
-})
+});
 
 document.querySelector("#close-modal-btn").addEventListener("click", () => {
     overlay.style.display = "none";
-})
+});
 
 // Event Listener to clear the game display, so the user can play again
 resetBtn.addEventListener("click", (e) => {
@@ -33,20 +37,16 @@ resetBtn.addEventListener("click", (e) => {
     playerScoreDisplay.innerHTML = playerScore;
     compScoreDisplay.innerHTML = compScore;
     location.reload();
-})
+});
 
 // For each Button named possible choice, add an event listener when user clicks. When clicked, target the ID of the button and display this in Browser
 // https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w (Code with Ania Kubów)
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
-    playerChoice = e.target.id
+    playerChoice = e.target.id;
     playerChoiceDisplay.innerHTML = playerChoice;
     generateComputerChoice();
     checkResult();
 }));
-
-
-//BUG RESET QUIZ SCORE TO ZERO COMPLETELY
-
 
 //Functions// 
 // Generates computer Choice
@@ -65,35 +65,32 @@ function generateComputerChoice() {
 }
 
 // Checks the Result
-//BUG FIRST RESULT IS NOT ADDED TO THE SCORE. MUST FIX ----- FIXED
-//BUG SOME SCORES DO NOT UPDATE FIX ----- FIXED
-//BUG SOME SCORES GO UP IN INCREMENTS OF MORE THAN ONE.....
 function checkResult() {
     if (compChoice === playerChoice) {
         result = "Draw!";
     } else if (compChoice === "🤘" && playerChoice === "🧻") {
         result = "Player Wins!";
-        playerScore++
+        playerScore++;
         playerScoreDisplay.innerHTML = `${playerScore}`;
     } else if (compChoice === "🤘" && playerChoice === "✂") {
         result = "Computer Wins!";
-        compScore++
+        compScore++;
         compScoreDisplay.innerHTML = `${compScore}`;
     } else if (compChoice === "✂" && playerChoice === "🧻") {
         result = "Computer Wins!";
-        compScore++
+        compScore++;
         compScoreDisplay.innerHTML = `${compScore}`;
     } else if (compChoice === "✂" && playerChoice === "🤘") {
         result = "Player Wins!";
-        playerScore++
+        playerScore++;
         playerScoreDisplay.innerHTML = `${playerScore}`;
     } else if (compChoice === "🧻" && playerChoice === "✂") {
         result = "Player Wins!";
-        playerScore++
+        playerScore++;
         playerScoreDisplay.innerHTML = `${playerScore}`;
     } else if (compChoice === "🧻" && playerChoice === "🤘") {
         result = "Computer Wins!";
-        compScore++
+        compScore++;
         compScoreDisplay.innerHTML = `${compScore}`;
     }
     resultDisplay.innerHTML = result;

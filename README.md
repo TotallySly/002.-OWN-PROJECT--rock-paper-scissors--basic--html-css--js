@@ -254,6 +254,9 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 ### Features Left To Implement
 
+- A high score feature. This will be done by storing the score locally on the players computer.
+
+- Difficulty sections. Normal, hard, harder. The computer would have a larger range of numbers meaning they have a higher chance of winning.
 ---
 
 ## Technologies Used
@@ -296,15 +299,58 @@ Testing was conducted on Google Chrome, Mozilla Firefox and Safari web browsers.
 
 After website completion, I submitted the website to Code Institute's Slack Community, specifically the 'Peer-Code-Review' channel.
 
+The tested the game logic by writing a list of all possibilities on pen and paper.
+
 ---
 
 ### Accessibility
 
+<details>
+<summary>Lighthouse - Desktop</summary>
+
+![Lighthouse - Desktop](assets\images\readme-lighthouse_desktop.png)
+
+</details>
+
+<details>
+<summary>Lighthouse - Desktop</summary>
+
+![Lighthouse - Mobile](assets\images\readme-lighthouse_mobile.png)
+
+</details>
+
+<details>
+<summary>HTML Validation</summary>
+
+![HTML](assets\images\readme-html_validation.png)
+
+</details>
+
+<details>
+<summary>CSS Validation</summary>
+
+![CSS Validation](assets\images\readme-css_validation.png)
+
+</details>
+
+<details>
+<summary>JavaScript Validation</summary>
+
+![JavaScript Validation](assets\images\readme-js_validator.png)
+
+</details>
 ---
 
 ### Bugs
 
-- The whole thing.
+- All bugs have now been fixed and are working fully.
+
+Bugs I came across whilst coding the game:
+
+  - #1 Resetting The Score To Be Zero.
+    - All parts of the game would reset when the 'Reset Game' button was clicked. However, once the new game would begin. The score would be continued. So instead of starting at zero with the next score being 1, it would become 11. I found a solution on Stack Overflow.
+  - #2 Results Not Being Added To The Score. 
+    - I found that using the Font Awesome Icons were causing the issue. I believe this was due to the addition "i tags" required within the "button tags". After a lot of debating, I simply tested using the pre-installed emoji's within Window's 10. Not only did this not mess any of the coding when it came to the score being added. It provided a great unique feature. Instead of the boring Font Awesome Icon's I had seen everywhere, I had a USP. It also helped create cool 8 bit looking buttons. A fantastic thinking outside of the box solution if I do say so myself.
 
 ---
 
@@ -317,11 +363,30 @@ After website completion, I submitted the website to Code Institute's Slack Comm
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 - The link:
-  - [Flag Quiz](https://totallysly.github.io/portfolio-project-two/)
+  - [Rock Paper Scissors](https://totallysly.github.io/portfolio-project-two/)
+<details>
+<summary>QR Code to View Website</summary>
+
+![QR Code](assets\images\readme-qr_image_to_website.png)
+
+</details>
 
 ---
 
 ## Credits
+
+- [How to Create a Pop-Up Modal - (codefoxx)](https://www.youtube.com/watch?v=uUCpopjPZdI&ab_channel=codefoxx) 
+  - How to create a modal.
+
+- [location.reload() - Stack Overflow](https://stackoverflow.com/questions/3715047/how-to-reload-a-page-using-javascript)
+  - How to reset the local stage of a user's browser.
+
+- [Code with Ania Kubów](https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w)
+  - General ideas surrounding a Rock Paper Scissors Game. 
+  - Direct code for creating a For Each loop regarding Event Listeners.
+
+- [Master JavaScript - Jonas Schmedtman](https://codingheroes.io/)
+  - A General course which i used to learn JavaScript.
 
 
 ### Content
@@ -333,11 +398,7 @@ After website completion, I submitted the website to Code Institute's Slack Comm
 
 ### Media
 
-- [Background Image - Clay Banks](https://unsplash.com/photos/b5S4FrJb7yQ).
-
-- [Flag Images](https://flagpedia.net/download)
-
-[]()
+Windows 10 pre-installed emojis.
 
 ### Acknowledgements
 

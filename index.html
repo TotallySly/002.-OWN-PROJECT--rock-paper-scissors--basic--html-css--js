@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Scott Lyon">
+    <meta name="description"
+        content="A quick and simple game of Rock, Paper, Scissors. Something to pass the time while the kettle boils, if you are sat on the toilet. Or even both.">
     <link rel="stylesheet" href="assets/styles.css" />
     <title>Rock Paper Scissors</title>
 </head>
@@ -12,92 +15,78 @@
 <body>
     <!--Title-->
     <header>
-        <span>
-            <h1 class="title">Rock Paper Scissors</h1>
-        </span>
+        <h1 class="title">Rock Paper Scissors</h1>
     </header>
     <!--Title-->
 
     <!--Modal-->
     <!--https://www.youtube.com/watch?v=uUCpopjPZdI&ab_channel=codefoxx - JavaScript - How to Create a Pop-Up Modal ( Super Easy! ) (codefoxx)-->
-
     <!--Non-Game Buttons-->
-    <section class="top-btns">
+    <div class="top-btns">
         <button class="non-game-btns modal-btn" id="show-modal-btn">Rules</button>
         <button class="non-game-btns" id="reset-btn">Reset Game</button>
-    </section>
+    </div>
     <!--Non-Game Buttons-->
-
     <!--Modal-->
-    <section id="overlay">
+    <div id="overlay">
         <div id="modal">
             <button class="non-game-btns modal-btn" id="close-modal-btn">x</button>
-            <header class="modal-container">
-                <h1 class="rules-title">How to play: </h1>
-                <main>
-                    <p class="game-desc">
-                        Click on the method you wish to play with and see if you can beat the computer!
-                    </p>
-                    <p class="key">
-                        <span>🤘</span><span> = ROCK</span>
-                        <span>🧻</span><span> = PAPER</span>
-                        <span>✂</span><span> = SCISSORS</span>
-                    </p>
-                    <p class="center">
-                        Winning methods:
-                    </p>
-                    <section class="center">
-                        <span>🤘</span>
-                        <span>BEATS</span>
-                        <span>✂</span>
-                    </section>
-                    <section class="center">
-                        <span>✂</span>
-                        <span>BEATS</span>
-                        <span>🧻</span>
-                    </section>
-                    <section class="center modal-btm-margin">
-                        <span>🧻</span>
-                        <span>BEATS</span>
-                        <span>🤘</span>
-                    </section>
-    </section>
-    </main>
-    </header>
+            <div class="modal-container">
+                <div class="rules-title">How to play: </div>
+                <p class="game-desc">
+                    Click on the method you wish to play with and see if you can beat the computer!
+                </p>
+                <p class="key">
+                    <span>🤘</span><span> = ROCK</span>
+                    <span>🧻</span><span> = PAPER</span>
+                    <span>✂</span><span> = SCISSORS</span>
+                </p>
+                <p class="center">
+                    Winning methods:
+                </p>
+                <div class="center">
+                    <span>🤘</span>
+                    <span>BEATS</span>
+                    <span>✂</span>
+                </div>
+                <div class="center">
+                    <span>✂</span>
+                    <span>BEATS</span>
+                    <span>🧻</span>
+                </div>
+                <div class="center modal-btm-margin">
+                    <span>🧻</span>
+                    <span>BEATS</span>
+                    <span>🤘</span>
+                </div>
+            </div>
+        </div>
     </div>
-    </section>
     <!--Modal-->
-
-
     <!--Game Content-->
     <main class="game-content">
-
         <!--Display the choices-->
-        <section class="display-choice">
+        <div class="display-choice">
             <div>Computer Choice: <span id="comp-choice"></span></div>
             <div>Player Choice: <span id="player-choice"></span></div>
-        </section>
+        </div>
         <!--Display the choices-->
-
         <!--Result-->
-        <section class="result">Result: <span id="result"></span></section>
+        <div class="result">Result: <span id="result"></span></div>
         <!--Result-->
-
         <!--Scores-->
-        <section class="scores">
+        <div class="scores">
             <div>Computer Score: <span class="score" id="comp-score">0</span></div>
             <div>Player Score: <span class="score" id="player-score">0</span></div>
-        </section>
+        </div>
         <!--Scores-->
-
         <!--Game Buttons-->
-        <section>
+        <div>
             <button id="🤘" class="game-btns">🤘</button>
             <button id="🧻" class="game-btns">🧻</button>
             <button id="✂" class="game-btns">✂</button>
-        </section>
+        </div>
         <!--Game Buttons-->
-
     </main>
     <!--Game Content-->
     <script src="assets/script.js"></script>
