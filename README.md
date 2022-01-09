@@ -1,10 +1,10 @@
-# Guess The Flag
+# Rock, Paper, Scissors
 
-Guess The Flag! Do you know about countries flags?! Well, see how much you actually know!
+Can you outwit the computer in this classic game of 'Rock, Paper, Scissors'? The game continues for as long as you like. And is a great 5 minute distraction if you are waiting for the bus, the kettle to boil, or sitting on the toilet!
 
-Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/)
+Link to the live [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-project-two/)
 
-![Responsive Mockup](assets/images/readme-amiresponsive.png)
+![Responsive Mockup](assets\images\read-am_i_responsive.png)
 
 ---
 
@@ -38,7 +38,7 @@ Link to the live [Flag Quiz](https://totallysly.github.io/portfolio-project-two/
 
 ## UX and UI Design
 
-- The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive. I wanted to quiz that was based on imagery rather than words. This ensures a keen minimalist design, which will be powerful to play on all devices.
+- The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive.
 
 - I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
 
