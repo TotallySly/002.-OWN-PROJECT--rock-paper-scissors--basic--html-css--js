@@ -21,8 +21,8 @@ html {
 /* Main CSS Styles*/
 body {
     font-size: 4vh;
-    background-color: rgba(0, 0, 0, 0.849);
-    color: rgba(218, 165, 32, 0.87);
+    background-color: #272727;
+    color: #C29421;
     font-family: 'Nunito', sans-serif;
 }
 /* Main CSS Styles*/
@@ -47,7 +47,7 @@ body {
 }
 
 button:hover {
-    background-color: rgba(218, 165, 32, 0.87);
+    background-color: #C29421;
 }
 /* Non-Game Buttons */
 
@@ -60,7 +60,7 @@ button:hover {
     left: 0;
     right: 0;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.849);
+    background-color: #272727;
 }
 
 #modal {
@@ -68,8 +68,8 @@ button:hover {
     max-width: 600px;
     height: 300px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.849);
-    color: rgba(218, 165, 32, 0.87);
+    background-color: #272727;
+    color: #C29421;
     position: absolute;
     top: 0;
     bottom: 0;

@@ -2,9 +2,16 @@
 
 Can you outwit the computer in this classic game of 'Rock, Paper, Scissors'? The game continues for as long as you like. And is a great 5 minute distraction if you are waiting for the bus, the kettle to boil, or sitting on the toilet!
 
-Link to the live [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-project-two/)
+Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-project-two/)
 
-![Responsive Mockup](assets\images\read-am_i_responsive.png)
+<details>
+<summary>QR Code to View Website</summary>
+
+![QR Code](assets\images\readme-qr_image_to_website.png)
+
+</details>
+
+![Responsive Mockup](assets\images\readme-am_i_responsive.png)
 
 ---
 
@@ -47,24 +54,25 @@ Link to the live [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-
 
 ### Website Goals
 
-    - To provide a fun and interactive game for users using JavaScript
-    - To test and improve the knowledge of the users skills in guessing which countries flags relate to which country
-    - Allow players to see their score increment with, both, correct and incorrect answers.
+    - To provide a fun and interactive game for users using Vanilla JavaScript
+    - To create logic of a Random Number Generator (RNG), for the computer's decision.
+    - Allow the scores to increment depending on whether the user or the computer wins.
 
 ---
 
 ### User Goals
 
-    - To correctly play an interactive quiz!
-    - To improve upon their geography knowledge
+    - To play a game of Rock, Paper, Scissors
+    - To kill a few minutes whilst playing this game.
+    - The ability to play the computer.
     - To have fun!
 
 ### Potential Features to Use
 
     - Increment players scores.
-    - A timer feature.
-    - Store high scores (locally)
-    - Create a username (locally)
+    - Images instead of text whilst playing the game.
+    - Reset the scores instead of hitting the refresh button.
+
 
 ---
 
@@ -97,9 +105,7 @@ Link to the live [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-
 
 ### Imagery
 
-- Imagery was sourced from the stock image website, Unsplash. All flag images were sourced from Flagpedia. Both of which are linked below in the content section.
-
-- Images, if required, were compressed using TinyPNG in order to improve website accessibility.
+- The only images used within this project are the pre-installed emoji's. These were tested on Windows and Apple devices and are universal. I felt these images would make the website look contemporary and slightly more unique than using horrible stock images, or over-used Font Awesome icons.
 
 - I link sleek and minimal design. Which I have implemented into this website. Minimal text, and images fuel the process of this website.
 
@@ -107,15 +113,19 @@ Link to the live [Rock, Paper, Scissors](https://totallysly.github.io/portfolio-
 
 ### Colour Scheme
 
-![Colour Palette](assets/images/readme-colourpalette.png)
+![Colour Palette](assets\images\readme-colour-pallette.png)
+
+- The shade of black would be a great backdrop to the background of the game.
+- The shade of gold is a visually pleasing and warming colour as the font of the game.
 
 ---
 
 ### Typography
 
-I used Google Fonts to select my fonts.
+![Typography](assets\images\readme-typography.png).
 
-![Typography](assets/images/readme-fontstyle.png).
+- I used Google Fonts to select my fonts.
+- I fell in love with the 'Nunito' font the second I saw it. I downloaded the file and have set it as a lot of my default font's and am excited to use this font more in the future.
 
 ---
 
@@ -123,17 +133,18 @@ I used Google Fonts to select my fonts.
 
 ### Existing Features
 
-#### Background Image
+#### Website Image
 
 <details>
-<summary>Background Image</summary>
+<summary>Website Image</summary>
 
-![Background Image](assets/images/background-image.png)
+![Background Image](assets\images\readme-desktop-website-layout.png)
 
 </details>
 
 
-- I felt like this background image was amazing for this project. It gives a nice warm friendly feeling. Almost like a cosy Autumn. The magnifying glass searching for countries is a great addition to the whole concept of the quiz.
+- A simple colour was used as the background image.
+- I wanted the game to be minimalist and sleek.
 
 ---
 
@@ -142,52 +153,100 @@ I used Google Fonts to select my fonts.
 <details>
 <summary>Logo</summary>
 
-![Logo Image](assets/images/readme-logoimage.png)
+![Logo Image](assets\images\readme-logo.png)
 
 </details>
 
-- The logo is a nice and simple design. It is the name of the quiz within two Font Awesome flag icons, of a flag. I felt like this simple design does not distract the user from the quiz at all. but also clearly defines the quiz in itself.
+- The logo is a simple text of 'Rock Paper Scissors' using the 'Nunito' font. I played around with the idea of using the text in conjunction with the emoji's used within the game. However, this was too 'busy'. I also thought about using just emoji's. I opted against this as it made a rather immature looking design. 
 
 ---
 
-#### Generate Flag Button
+#### Rules and Reset Game Buttons
 
 <details>
-<summary>Generate Flag Button</summary>
+<summary>Rules and Reset Game Buttons</summary>
 
-![Generate Flag Button](assets/images/readme-generateflagbtn.png)
+![Rules and Reset Game Buttons](assets\images\readme-non_game_btns.png)
 
 </details>
 
-- The generate flag button is a simple button but with the font of the the website. This is to maintain the same style throughout the website. This button will display a new flag for the user to guess. 
+<details>
+<summary>Rules and Reset Game Buttons (Hover)</summary>
+
+![Rules and Reset Game Buttons (Hover)](assets\images\readme-non_game_btns_hover.png)
+
+</details
+
+- The Buttons are big enough to be seen instantly, whilst keeping with a 'skinny' font which adds a great juxtaposition.
+- The buttons have slightly curved corners so they edges are not as harsh on the eyes.
+- When the user hovers (or when on a mobile/tablet) the button background changes to the font colour. This is repeated on all buttons on the website.
+- This to enhance the intuitive design of the game. It displays that the user can/has clicked the button. 
 
 ---
 
-#### Flag Question
+#### Modal (Rules)
 
 <details>
-<summary>Flag Question</summary>
+<summary>Game Rules</summary>
 
-![Flag Question](assets/images/readme-theflagquestion.png)
+![Game Rules](assets\images\readme-modal_rules.png)
 
 </details>
 
-- The 'whose flag is this' remains consistent through the quiz. It is using the same font family to continue the theme. The flag is generated after the user clicks the 'generate random flag' button. The flag image remains the biggest image on the page, as this is what the user needs to see in order to answer the question.
-
-- The flag is taken from flagpedia.net.
+- The game rules open up in a modal, that can be clicked upon at any time during the game.
+- The popup stands out from the rest of the game, whilst keeping a sleek design to show the game in the background in a subtle way.
+- To shows a 'key' to the user as to what the emoji's represent.
+- To shows the user which emoji's beat other emoji's in order to win.
+- The 'x' button in the top-left of the modal is visible enough to show the user to close. Like all buttons, when the mouse hovers over this, the background becomes the crisp 'Satin Sheen Gold' colour used in the fonts.
 
 ---
 
-#### Option Buttons
+#### Game Board
 
 <details>
-<summary>Answer Options</summary>
+<summary>Game Board (Start & Reset Game)</summary>
 
-![Answer Options](assets/images/readme-optionbtn.png)
+![Game Board (Start & Reset Game)](assets\images\readme-gameboard_start.png)
 
 </details>
 
-The option buttons use the same font as the whole webpage, which is keeping in with the websites theme.
+
+<details>
+<summary>Game Board (During Game)</summary>
+
+![Game Board (During Game)](assets\images\readme-gameboard_during.png)
+
+</details>
+
+- The Game board before the game is a simple design in which all information can be seen clearly so the player. This is to ensure the user does not have a visual overload of information and can see who wins, what the score is, and play the next round quickly.
+
+- During the game, the choices of the player and the computer are clearly seen. The winner is in a bold font and is in the center of the website. This is so the eyes are can instantly tell who has won the game.
+
+- The score is also in bold, so the numerical value of the score is always clearly seen to the user.
+
+- The Computer and Player is always kept in the same order. First in terms of choice, then in terms of score. This keeps the logic of design flowing.
+
+
+#### Game Buttons
+
+<details>
+<summary>Game Buttons</summary>
+
+![Game Board](assets\images\readme-game_btns.png)
+
+</details>
+
+
+<details>
+<summary>Game Buttons (Hover)</summary>
+
+![Game Board (During Game)](assets\images\readme-game_btns_hover.png)
+
+</details>
+
+- The Game Buttons are big and stand out clearly to the user. It is clear what each button represents and thus is is intuitive to the user.
+
+- When the user hovers (or on a mobile/tablet, clicks) the buttons change to the font colour. This clearly shows to the user what they are to select. Visually, with the use of the emoji's, this is my favourite section of the website. The emoji's, colours of the button and size. It feels like a modern 8-bit game.
 
 ---
 
