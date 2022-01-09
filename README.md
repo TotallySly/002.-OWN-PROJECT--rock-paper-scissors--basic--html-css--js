@@ -81,24 +81,19 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](assets/images/readme-desktop-wireframe.png)
-
-</details>
-
-<details>
-<summary>Tablet Wireframe</summary>
-
-![Desktop Wireframe](assets/images/readme-tablet-wireframe.png)
+![Desktop Wireframe](assets\images\readme-wireframes_desktop.png)
 
 </details>
 
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Desktop Wireframe](assets/images/readme-mobile-wireframe.png)
+![Desktop Wireframe](assets\images\readme-wireframes_mobile.png)
 
 </details>
 
+
+- My wireframes design is very close, but not exactly like the final outcome. This whilst implementing the CSS, the design just didn't feel right. I am a lot more happy with my final outcome.
 ---
 
 ## Design
