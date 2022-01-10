@@ -7,11 +7,11 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>QR Code to View Website</summary>
 
-![QR Code](assets\images\readme-qr_image_to_website.png)
+![QR Code](assets/images/readme-qr_image_to_website.png)
 
 </details>
 
-![Responsive Mockup](\assets\images\readme-am_i_responsive.png)
+![Responsive Mockup](assets/images/readme-am_i_responsive.png)
 
 ---
 
