@@ -11,7 +11,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 </details>
 
-![Responsive Mockup](assets\images\readme-am_i_responsive.png)
+![Responsive Mockup](\assets\images\readme-am_i_responsive.png)
 
 ---
 
