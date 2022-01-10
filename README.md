@@ -283,6 +283,26 @@ Frameworks and Libraries
 
 ### Validator Testing
 
+<details>
+<summary>HTML Validation</summary>
+
+![HTML](assets/images/readme-html_validation.png)
+
+</details>
+
+<details>
+<summary>CSS Validation</summary>
+
+![CSS Validation](assets/images/readme-css_validation.png)
+
+</details>
+
+<details>
+<summary>JavaScript Validation</summary>
+
+![JavaScript Validation](assets/images/readme-js_validator.png)
+
+</details>
 ---
 
 ### Manual Testing
@@ -313,26 +333,6 @@ The tested the game logic by writing a list of all possibilities on pen and pape
 
 </details>
 
-<details>
-<summary>HTML Validation</summary>
-
-![HTML](assets/images/readme-html_validation.png)
-
-</details>
-
-<details>
-<summary>CSS Validation</summary>
-
-![CSS Validation](assets/images/readme-css_validation.png)
-
-</details>
-
-<details>
-<summary>JavaScript Validation</summary>
-
-![JavaScript Validation](assets/images/readme-js_validator.png)
-
-</details>
 ---
 
 ### Bugs
