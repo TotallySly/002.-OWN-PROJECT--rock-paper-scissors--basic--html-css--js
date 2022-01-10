@@ -81,14 +81,14 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](assets\images\readme-wireframes_desktop.png)
+![Desktop Wireframe](assets/images/readme-wireframes_desktop.png)
 
 </details>
 
 <details>
 <summary>Mobile Wireframe</summary>
 
-![Desktop Wireframe](assets\images\readme-wireframes_mobile.png)
+![Desktop Wireframe](assets/images/readme-wireframes_mobile.png)
 
 </details>
 
@@ -108,7 +108,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 ### Colour Scheme
 
-![Colour Palette](assets\images\readme-colour-pallette.png)
+![Colour Palette](assets/images/readme-colour-pallette.png)
 
 - The shade of black would be a great backdrop to the background of the game.
 - The shade of gold is a visually pleasing and warming colour as the font of the game.
@@ -117,7 +117,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 ### Typography
 
-![Typography](assets\images\readme-typography.png).
+![Typography](assets/images/readme-typography.png).
 
 - I used Google Fonts to select my fonts.
 - I fell in love with the 'Nunito' font the second I saw it. I downloaded the file and have set it as a lot of my default font's and am excited to use this font more in the future.
@@ -133,7 +133,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Website Image</summary>
 
-![Background Image](assets\images\readme-desktop-website-layout.png)
+![Background Image](assets/images/readme-desktop-website-layout.png)
 
 </details>
 
@@ -148,7 +148,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Logo</summary>
 
-![Logo Image](assets\images\readme-logo.png)
+![Logo Image](assets/images/readme-logo.png)
 
 </details>
 
@@ -161,14 +161,14 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Rules and Reset Game Buttons</summary>
 
-![Rules and Reset Game Buttons](assets\images\readme-non_game_btns.png)
+![Rules and Reset Game Buttons](assets/images/readme-non_game_btns.png)
 
 </details>
 
 <details>
 <summary>Rules and Reset Game Buttons (Hover)</summary>
 
-![Rules and Reset Game Buttons (Hover)](assets\images\readme-non_game_btns_hover.png)
+![Rules and Reset Game Buttons (Hover)](assets/images/readme-non_game_btns_hover.png)
 
 </details
 
@@ -184,7 +184,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Game Rules</summary>
 
-![Game Rules](assets\images\readme-modal_rules.png)
+![Game Rules](assets/images/readme-modal_rules.png)
 
 </details>
 
@@ -201,7 +201,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Game Board (Start & Reset Game)</summary>
 
-![Game Board (Start & Reset Game)](assets\images\readme-gameboard_start.png)
+![Game Board (Start & Reset Game)](assets/images/readme-gameboard_start.png)
 
 </details>
 
@@ -209,7 +209,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Game Board (During Game)</summary>
 
-![Game Board (During Game)](assets\images\readme-gameboard_during.png)
+![Game Board (During Game)](assets/images/readme-gameboard_during.png)
 
 </details>
 
@@ -227,7 +227,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Game Buttons</summary>
 
-![Game Board](assets\images\readme-game_btns.png)
+![Game Board](assets/images/readme-game_btns.png)
 
 </details>
 
@@ -235,7 +235,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 <details>
 <summary>Game Buttons (Hover)</summary>
 
-![Game Board (During Game)](assets\images\readme-game_btns_hover.png)
+![Game Board (During Game)](assets/images/readme-game_btns_hover.png)
 
 </details>
 
@@ -303,35 +303,35 @@ The tested the game logic by writing a list of all possibilities on pen and pape
 <details>
 <summary>Lighthouse - Desktop</summary>
 
-![Lighthouse - Desktop](assets\images\readme-lighthouse_desktop.png)
+![Lighthouse - Desktop](assets/images/readme-lighthouse_desktop.png)
 
 </details>
 
 <details>
 <summary>Lighthouse - Desktop</summary>
 
-![Lighthouse - Mobile](assets\images\readme-lighthouse_mobile.png)
+![Lighthouse - Mobile](assets/images/readme-lighthouse_mobile.png)
 
 </details>
 
 <details>
 <summary>HTML Validation</summary>
 
-![HTML](assets\images\readme-html_validation.png)
+![HTML](assets/images/readme-html_validation.png)
 
 </details>
 
 <details>
 <summary>CSS Validation</summary>
 
-![CSS Validation](assets\images\readme-css_validation.png)
+![CSS Validation](assets/images/readme-css_validation.png)
 
 </details>
 
 <details>
 <summary>JavaScript Validation</summary>
 
-![JavaScript Validation](assets\images\readme-js_validator.png)
+![JavaScript Validation](assets/images/readme-js_validator.png)
 
 </details>
 ---
@@ -362,7 +362,7 @@ Bugs I came across whilst coding the game:
 <details>
 <summary>QR Code to View Website</summary>
 
-![QR Code](assets\images\readme-qr_image_to_website.png)
+![QR Code](assets/images/readme-qr_image_to_website.png)
 
 </details>
 
