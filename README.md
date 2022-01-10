@@ -301,9 +301,9 @@ The tested the game logic by writing a list of all possibilities on pen and pape
 ### Accessibility
 
 <details>
-<summary>Lighthouse - Desktop</summary>
+<summary>Lighthouse - Mobile</summary>
 
-![Lighthouse - Desktop](assets/images/readme-lighthouse_desktop.png)
+![Lighthouse - Mobile](assets/images/readme-lighthouse_desktop.png)
 
 </details>
 
