@@ -47,7 +47,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 - The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive and intuitive.
 
-- I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
+- I initially sketched my design using pen and paper, as well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
 
 
 ---
@@ -93,14 +93,14 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 </details>
 
 
-- My wireframes design is very close, but not exactly like the final outcome. This whilst implementing the CSS, the design just didn't feel right. I am a lot more happy with my final outcome.
+- My wireframes design is very close, but not exactly like the final outcome. Whilst implementing the CSS, the design just didn't feel right. I am a lot more happy with my final outcome.
 ---
 
 ## Design
 
 ### Imagery
 
-- The only images used within this project are the pre-installed emoji's. These were tested on Windows and Apple devices and are universal. I felt these images would make the website look contemporary and slightly more unique than using horrible stock images, or over-used Font Awesome icons.
+- The only images used within this project are the pre-installed emoji's. These were tested on Windows and Apple devices and are universal. I felt these images would make the website look contemporary and slightly more unique than using horrible stock images, or over-used Font Awesome icons. It also helped create a modern "8-bit" feel.
 
 - I link sleek and minimal design. Which I have implemented into this website. Minimal text, and images fuel the process of this website.
 
@@ -112,6 +112,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 - The shade of black would be a great backdrop to the background of the game.
 - The shade of gold is a visually pleasing and warming colour as the font of the game.
+- It also made a great background for the hover feature within CSS.
 
 ---
 
@@ -173,8 +174,8 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 </details
 
 - The Buttons are big enough to be seen instantly, whilst keeping with a 'skinny' font which adds a great juxtaposition.
-- The buttons have slightly curved corners so they edges are not as harsh on the eyes.
-- When the user hovers (or when on a mobile/tablet) the button background changes to the font colour. This is repeated on all buttons on the website.
+- The buttons have slightly curved corners so the edges are not as harsh on the eyes.
+- When the user hovers (or clicks when on a mobile/tablet) the button background changes to the font colour. This is repeated on all buttons on the website.
 - This to enhance the intuitive design of the game. It displays that the user can/has clicked the button. 
 
 ---
@@ -190,8 +191,8 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 - The game rules open up in a modal, that can be clicked upon at any time during the game.
 - The popup stands out from the rest of the game, whilst keeping a sleek design to show the game in the background in a subtle way.
-- To shows a 'key' to the user as to what the emoji's represent.
-- To shows the user which emoji's beat other emoji's in order to win.
+- To show a 'key' to the user as to what the emoji's represent.
+- To show the user which emoji's beat other emoji's in order to win.
 - The 'x' button in the top-left of the modal is visible enough to show the user to close. Like all buttons, when the mouse hovers over this, the background becomes the crisp 'Satin Sheen Gold' colour used in the fonts.
 
 ---
@@ -213,13 +214,13 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 </details>
 
-- The Game board before the game is a simple design in which all information can be seen clearly so the player. This is to ensure the user does not have a visual overload of information and can see who wins, what the score is, and play the next round quickly.
+- The Game board before the game is a simple design in which all information can be seen clearly by the player. This is to ensure the user does not have a visual overload of information and can see who wins, what the score is, and play the next round quickly.
 
 - During the game, the choices of the player and the computer are clearly seen. The winner is in a bold font and is in the center of the website. This is so the eyes are can instantly tell who has won the game.
 
 - The score is also in bold, so the numerical value of the score is always clearly seen to the user.
 
-- The Computer and Player is always kept in the same order. First in terms of choice, then in terms of score. This keeps the logic of design flowing.
+- The Computer and Player are always kept in the same order. First in terms of choice, then in terms of score. This keeps the logic of design flowing.
 
 
 #### Game Buttons
@@ -239,9 +240,9 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 </details>
 
-- The Game Buttons are big and stand out clearly to the user. It is clear what each button represents and thus is is intuitive to the user.
+- The Game Buttons are big and stand out clearly to the user. It is clear which each button represents and thus this is intuitive to the user.
 
-- When the user hovers (or on a mobile/tablet, clicks) the buttons change to the font colour. This clearly shows to the user what they are to select. Visually, with the use of the emoji's, this is my favourite section of the website. The emoji's, colours of the button and size. It feels like a modern 8-bit game.
+- When the user hovers (or on a mobile/tablet, clicks) the buttons change to the font colour. This clearly shows to the user what they are selecting. Visually, with the use of the emoji's, this is my favourite section of the website. The emoji's, colours of the button and size. It feels like modern 8-bit/Habbo Hotel.
 
 ---
 
@@ -274,8 +275,6 @@ Frameworks and Libraries
 - [Google Fonts](https://fonts.google.com/)
 - [Responsive PX](http://www.responsivepx.com/)
 - [Slack](https://slack.com/intl/en-se/)
-- [TinyPNG](https://tinypng.com/)
-- [Unsplash](https://unsplash.com/)
 - [VS Code](https://code.visualstudio.com/)
 
 ---
