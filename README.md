@@ -45,7 +45,7 @@ Link to the live website [Rock, Paper, Scissors](https://totallysly.github.io/po
 
 ## UX and UI Design
 
-- The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive.
+- The planning of this project was kept inline with the five planes of user-centric design. This is to ensure a clean-looking website that is fully responsive and intuitive.
 
 - I initially sketched my design using pen and paper. As well as a to-do list of potential features I wanted to implement. When I was happy with my final sketched design, I created my design using the Balsamiq Wireframes program as a solid template for the futures of the website.
 
@@ -386,7 +386,6 @@ Bugs I came across whilst coding the game:
 
 ### Content
 
-- Icons where via the amazing website - [Font Awesome](https://fontawesome.com/)
 - The colour palette was from [Coolors](https://coolors.co/)
 - Additional Responsive Tool [Responsive PX](http://www.responsivepx.com/)
 - And of course, Google Dev Tools.
